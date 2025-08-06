@@ -1,2 +1,3 @@
-# historical_press_analysis
-'Anarchists', 'terrorists', 'freedom fighters' – how do the media talk about social movements? The potential of historical press analysis 
+# 'Anarchists', 'terrorists', 'freedom fighters' – how do the media talk about social movements? The potential of historical press analysis.
+
+Words are powerful and shifts in discourse are politically relevant. We see this today not only in the context of migration or gender. It makes a big difference, for example, whether the media speak of ‘climate activists’, ‘Klimakleber’ or ‘climate terrorists’. This is why media discourse, and especially the press, is also a central source for historical research. However, this presents several challenges: although many European newspapers from the 19th and 20th centuries have been digitised in various formats, they are often not systematically searchable as full texts. Where a full-text search is possible, it is not clear how well it works. Finally, there is the question of how best to analyse this mass data and how data science tools can help, for example by recognising typical word combinations. 

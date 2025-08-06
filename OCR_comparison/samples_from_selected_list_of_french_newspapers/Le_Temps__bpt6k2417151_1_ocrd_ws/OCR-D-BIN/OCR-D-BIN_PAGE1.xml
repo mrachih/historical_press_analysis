@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-BIN_PAGE1">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 3.3.2</pc:Creator>
+        <pc:Created>2025-06-27T12:33:32.218149</pc:Created>
+        <pc:LastChange>2025-06-27T12:33:32.218149</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.0" type="ocrd-olena-binarize"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/Le_Temps__bpt6k2417151_1.jpeg" imageWidth="2048" imageHeight="2788">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_PAGE1_.IMG-BIN.png" comments="binarized"/>
+    </pc:Page>
+</pc:PcGts>

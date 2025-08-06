@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-OCR-CALAMARI_PAGE1">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 3.3.2</pc:Creator>
+        <pc:Created>2025-06-27T12:22:21.894123</pc:Created>
+        <pc:LastChange>2025-06-27T12:22:21.894123</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.0" type="ocrd-olena-binarize"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.20.1" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="historical_french" type="checkpoint_dir"/>
+                <pc:Label value="0" type="device"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.1" type="ocrd-calamari-recognize"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/Le_Constitutionnel___journal_politique_[...]_bpt6k6485511_1.jpeg" imageWidth="948" imageHeight="1566">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_PAGE1_.IMG-BIN.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/OCR-D-SEG_PAGE1_.IMG-BIN.png" comments="binarized,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:RegionRefIndexed index="4" regionRef="region0004"/>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+                <pc:RegionRefIndexed index="8" regionRef="region0008"/>
+                <pc:RegionRefIndexed index="9" regionRef="region0009"/>
+                <pc:RegionRefIndexed index="10" regionRef="region0010"/>
+                <pc:RegionRefIndexed index="11" regionRef="region0011"/>
+                <pc:RegionRefIndexed index="12" regionRef="region0012"/>
+                <pc:RegionRefIndexed index="13" regionRef="region0013"/>
+                <pc:RegionRefIndexed index="14" regionRef="region0014"/>
+                <pc:RegionRefIndexed index="15" regionRef="region0015"/>
+                <pc:RegionRefIndexed index="16" regionRef="region0016"/>
+                <pc:RegionRefIndexed index="17" regionRef="region0017"/>
+                <pc:RegionRefIndexed index="18" regionRef="region0018"/>
+                <pc:RegionRefIndexed index="19" regionRef="region0019"/>
+                <pc:RegionRefIndexed index="20" regionRef="region0020"/>
+                <pc:RegionRefIndexed index="21" regionRef="region0021"/>
+                <pc:RegionRefIndexed index="22" regionRef="region0022"/>
+                <pc:RegionRefIndexed index="23" regionRef="region0023"/>
+                <pc:RegionRefIndexed index="24" regionRef="region0024"/>
+                <pc:RegionRefIndexed index="25" regionRef="region0025"/>
+                <pc:RegionRefIndexed index="26" regionRef="region0026"/>
+                <pc:RegionRefIndexed index="27" regionRef="region0027"/>
+                <pc:RegionRefIndexed index="28" regionRef="region0028"/>
+                <pc:RegionRefIndexed index="29" regionRef="region0029"/>
+                <pc:RegionRefIndexed index="30" regionRef="region0030"/>
+                <pc:RegionRefIndexed index="31" regionRef="region0031"/>
+                <pc:RegionRefIndexed index="32" regionRef="region0032"/>
+                <pc:RegionRefIndexed index="33" regionRef="region0033"/>
+                <pc:RegionRefIndexed index="34" regionRef="region0034"/>
+                <pc:RegionRefIndexed index="35" regionRef="region0035"/>
+                <pc:RegionRefIndexed index="36" regionRef="region0036"/>
+                <pc:RegionRefIndexed index="37" regionRef="region0037"/>
+                <pc:RegionRefIndexed index="38" regionRef="region0038"/>
+                <pc:RegionRefIndexed index="39" regionRef="region0039"/>
+                <pc:RegionRefIndexed index="40" regionRef="region0040"/>
+                <pc:RegionRefIndexed index="41" regionRef="region0041"/>
+                <pc:RegionRefIndexed index="42" regionRef="region0042"/>
+                <pc:RegionRefIndexed index="43" regionRef="region0043"/>
+                <pc:OrderedGroupIndexed id="region0044_order" regionRef="region0044" index="44">
+                    <pc:RegionRefIndexed index="0" regionRef="region0044_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="45" regionRef="region0045"/>
+                <pc:RegionRefIndexed index="46" regionRef="region0046"/>
+                <pc:RegionRefIndexed index="47" regionRef="region0047"/>
+                <pc:RegionRefIndexed index="48" regionRef="region0048"/>
+                <pc:RegionRefIndexed index="49" regionRef="region0049"/>
+                <pc:RegionRefIndexed index="50" regionRef="region0050"/>
+                <pc:RegionRefIndexed index="52" regionRef="region0052"/>
+                <pc:RegionRefIndexed index="53" regionRef="region0053"/>
+                <pc:RegionRefIndexed index="54" regionRef="region0054"/>
+                <pc:RegionRefIndexed index="55" regionRef="region0055"/>
+                <pc:RegionRefIndexed index="56" regionRef="region0056"/>
+                <pc:RegionRefIndexed index="57" regionRef="region0057"/>
+                <pc:RegionRefIndexed index="58" regionRef="region0058"/>
+                <pc:RegionRefIndexed index="59" regionRef="region0059"/>
+                <pc:RegionRefIndexed index="60" regionRef="region0060"/>
+                <pc:RegionRefIndexed index="61" regionRef="region0061"/>
+                <pc:RegionRefIndexed index="62" regionRef="region0062"/>
+                <pc:RegionRefIndexed index="63" regionRef="region0063"/>
+                <pc:RegionRefIndexed index="64" regionRef="region0064"/>
+                <pc:RegionRefIndexed index="65" regionRef="region0065"/>
+                <pc:RegionRefIndexed index="66" regionRef="region0066"/>
+                <pc:RegionRefIndexed index="67" regionRef="region0067"/>
+                <pc:RegionRefIndexed index="68" regionRef="region0068"/>
+                <pc:RegionRefIndexed index="69" regionRef="region0069"/>
+                <pc:RegionRefIndexed index="70" regionRef="region0070"/>
+                <pc:RegionRefIndexed index="71" regionRef="region0071"/>
+                <pc:RegionRefIndexed index="72" regionRef="region0072"/>
+                <pc:RegionRefIndexed index="73" regionRef="region0073"/>
+                <pc:RegionRefIndexed index="74" regionRef="region0074"/>
+                <pc:RegionRefIndexed index="75" regionRef="region0075"/>
+                <pc:RegionRefIndexed index="76" regionRef="region0076"/>
+                <pc:RegionRefIndexed index="77" regionRef="region0077"/>
+                <pc:RegionRefIndexed index="78" regionRef="region0078"/>
+                <pc:RegionRefIndexed index="79" regionRef="region0079"/>
+                <pc:RegionRefIndexed index="80" regionRef="region0080"/>
+                <pc:RegionRefIndexed index="81" regionRef="region0081"/>
+                <pc:OrderedGroupIndexed id="region0082_order" regionRef="region0082" index="82">
+                    <pc:RegionRefIndexed index="0" regionRef="region0082_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="83" regionRef="region0083"/>
+                <pc:RegionRefIndexed index="84" regionRef="region0084"/>
+                <pc:RegionRefIndexed index="85" regionRef="region0085"/>
+                <pc:RegionRefIndexed index="86" regionRef="region0086"/>
+                <pc:RegionRefIndexed index="87" regionRef="region0087"/>
+                <pc:RegionRefIndexed index="88" regionRef="region0088"/>
+                <pc:RegionRefIndexed index="90" regionRef="region0090"/>
+                <pc:RegionRefIndexed index="91" regionRef="region0091"/>
+                <pc:RegionRefIndexed index="92" regionRef="region0092"/>
+                <pc:RegionRefIndexed index="93" regionRef="region0093"/>
+                <pc:RegionRefIndexed index="94" regionRef="region0094"/>
+                <pc:RegionRefIndexed index="95" regionRef="region0095"/>
+                <pc:RegionRefIndexed index="97" regionRef="region0097"/>
+                <pc:RegionRefIndexed index="98" regionRef="region0098"/>
+                <pc:RegionRefIndexed index="99" regionRef="region0099"/>
+                <pc:RegionRefIndexed index="100" regionRef="region0100"/>
+                <pc:RegionRefIndexed index="101" regionRef="region0101"/>
+                <pc:RegionRefIndexed index="102" regionRef="region0102"/>
+                <pc:RegionRefIndexed index="103" regionRef="region0103"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0000" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="0,612 196,612 196,651 0,651"/>
+            <pc:TextLine id="region0000_line0000">
+                <pc:Coords points="49,612 156,612 156,634 49,634"/>
+                <pc:TextEquiv conf="0.892026529372152">
+                    <pc:Unicode>qui ce propose</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0000_line0001">
+                <pc:Coords points="0,612 196,612 196,651 0,651"/>
+                <pc:TextEquiv conf="0.363619946655736">
+                    <pc:Unicode>ee ereoa re dlorle.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>qui ce propose
+ee ereoa re dlorle.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0004" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="16,1356 169,1356 169,1380 16,1380"/>
+            <pc:TextLine id="region0004_line0000">
+                <pc:Coords points="16,1356 169,1356 169,1380 16,1380"/>
+                <pc:TextEquiv conf="0.822716600374018">
+                    <pc:Unicode>A Vienne le q juin t</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>A Vienne le q juin t</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0007" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="24,217 438,217 438,245 24,245"/>
+            <pc:TextLine id="region0007_line0000">
+                <pc:Coords points="24,217 438,217 438,245 24,245"/>
+                <pc:TextEquiv conf="0.557106145976073">
+                    <pc:Unicode>mmamrs le niamnmaus de parimeis qui ernore udir der gieſ?</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>mmamrs le niamnmaus de parimeis qui ernore udir der gieſ?</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0008" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="11,237 379,237 379,285 11,285"/>
+            <pc:TextLine id="region0008_line0000">
+                <pc:Coords points="11,237 209,237 209,259 11,259"/>
+                <pc:TextEquiv conf="0.735195059552903">
+                    <pc:Unicode>a de rô d poue trois mo, Sr.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0008_line0001">
+                <pc:Coords points="11,249 214,249 214,273 11,273"/>
+                <pc:TextEquiv conf="0.486364331508463">
+                    <pc:Unicode>en mairr. llrri g Eaii?</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0008_line0002">
+                <pc:Coords points="11,259 379,259 379,285 11,285"/>
+                <pc:TextEquiv conf="0.608785476592879">
+                    <pc:Unicode>pe pr. , D erdur di Ne de Vauairm e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>a de rô d poue trois mo, Sr.
+en mairr. llrri g Eaii?
+pe pr. , D erdur di Ne de Vauairm e</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0009" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="235,235 339,235 339,256 235,256"/>
+            <pc:TextLine id="region0009_line0000">
+                <pc:Coords points="235,235 339,235 339,256 235,256"/>
+                <pc:TextEquiv conf="0.79040978792057">
+                    <pc:Unicode>aix mois, e a.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>aix mois, e a.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0011" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="247,60 781,60 781,212 247,212"/>
+            <pc:TextLine id="region0011_line0000">
+                <pc:Coords points="281,60 781,60 781,147 281,147"/>
+                <pc:TextEquiv conf="0.567787790639089">
+                    <pc:Unicode>NSSIrUUIOONE,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0011_line0001">
+                <pc:Coords points="247,150 735,150 735,212 247,212"/>
+                <pc:TextEquiv conf="0.975803593021852">
+                    <pc:Unicode>AL POLITIQUE ET LITTERAIRE.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>NSSIrUUIOONE,
+AL POLITIQUE ET LITTERAIRE.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0012" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="336,233 448,233 448,255 336,255"/>
+            <pc:TextLine id="region0012_line0000">
+                <pc:Coords points="336,233 448,233 448,255 336,255"/>
+                <pc:TextEquiv conf="0.735518495424185">
+                    <pc:Unicode>pour l’auée. Ons</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>pour l’auée. Ons</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0014" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="712,137 740,137 740,159 712,159"/>
+            <pc:TextLine id="region0014_line0000">
+                <pc:Coords points="712,137 740,137 740,159 712,159"/>
+                <pc:TextEquiv conf="0.0">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0015" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="726,135 819,135 819,165 726,165"/>
+            <pc:TextLine id="region0015_line0000">
+                <pc:Coords points="726,135 819,135 819,165 726,165"/>
+                <pc:TextEquiv conf="0.390744643803272">
+                    <pc:Unicode>2Vl</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>2Vl</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0016" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="743,205 859,205 859,222 743,222"/>
+            <pc:TextLine id="region0016_line0000">
+                <pc:Coords points="743,205 859,205 859,222 743,222"/>
+                <pc:TextEquiv conf="0.609761257966359">
+                    <pc:Unicode>m,4</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>m,4</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0017" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="435,216 859,216 859,252 435,252"/>
+            <pc:TextLine id="region0017_line0000">
+                <pc:Coords points="455,218 848,218 848,241 455,241"/>
+                <pc:TextEquiv conf="0.790153638155024">
+                    <pc:Unicode>mer, et leu avis qui pourrnt. intéreuer la puhlie. Aa pin du dourus</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0017_line0001">
+                <pc:Coords points="435,216 859,216 859,252 435,252"/>
+                <pc:TextEquiv conf="0.585977207842128">
+                    <pc:Unicode>amer ta lu aviu qui prmront unbe vur le palde le uii dey lonroues</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>mer, et leu avis qui pourrnt. intéreuer la puhlie. Aa pin du dourus
+amer ta lu aviu qui prmront unbe vur le palde le uii dey lonroues</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0018" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="228,243 859,243 859,276 228,276"/>
+            <pc:TextLine id="region0018_line0000">
+                <pc:Coords points="228,243 859,243 859,276 228,276"/>
+                <pc:TextEquiv conf="0.632953988390078">
+                    <pc:Unicode>d at hua les irctur ds uaena des dMp-mmr T Lax letrun pauats a rgruu ooleett trr arruésé raaes</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>d at hua les irctur ds uaena des dMp-mmr T Lax letrun pauats a rgruu ooleett trr arruésé raaes</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0019" orientation="1.15785558909127" type="heading" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="12,273 860,273 860,297 12,297"/>
+            <pc:TextLine id="region0019_line0000">
+                <pc:Coords points="12,273 860,273 860,297 12,297"/>
+                <pc:TextEquiv conf="0.634771758936486">
+                    <pc:Unicode>..........b. .oo .u’. .u.. ... oo . . . .... ’m uo¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>..........b. .oo .u’. .u.. ... oo . . . .... ’m uo¬</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0020" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="7,307 433,307 433,585 7,585"/>
+            <pc:TextLine id="region0020_line0000">
+                <pc:Coords points="133,307 308,307 308,333 133,333"/>
+                <pc:TextEquiv conf="0.924356730650179">
+                    <pc:Unicode>EXTERIEUE.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0001">
+                <pc:Coords points="175,327 305,327 305,357 175,357"/>
+                <pc:TextEquiv conf="0.898730734549463">
+                    <pc:Unicode>BAVIERE.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0002">
+                <pc:Coords points="121,350 299,350 299,374 121,374"/>
+                <pc:TextEquiv conf="0.787987669827599">
+                    <pc:Unicode>Miee, iepiembre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0003">
+                <pc:Coords points="29,366 429,366 429,396 29,396"/>
+                <pc:TextEquiv conf="0.814343532512347">
+                    <pc:Unicode>S. M., pur un déert du a noat, n urdonné la fon</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0004">
+                <pc:Coords points="27,381 406,381 406,412 27,412"/>
+                <pc:TextEquiv conf="0.591719010151847">
+                    <pc:Unicode>as del polyuunmique e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0005">
+                <pc:Coords points="7,402 403,402 403,428 7,428"/>
+                <pc:TextEquiv conf="0.872017546951771">
+                    <pc:Unicode>Rouirbonne, y septembre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0006">
+                <pc:Coords points="8,419 398,419 398,452 8,452"/>
+                <pc:TextEquiv conf="0.709278193859981">
+                    <pc:Unicode>SA R le prince enni drruus eut arrive iei aan</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0007">
+                <pc:Coords points="15,437 431,437 431,464 15,464"/>
+                <pc:TextEquiv conf="0.813720069809257">
+                    <pc:Unicode>aez M le lieuénnntuconel o sudde-ennup de Layel. Ce prince</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0008">
+                <pc:Coords points="16,455 359,455 359,480 16,480"/>
+                <pc:TextEquiv conf="0.831967258283444">
+                    <pc:Unicode>’conlinué hiur ra roule pour Slubourg.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0009">
+                <pc:Coords points="166,475 279,475 279,499 166,499"/>
+                <pc:TextEquiv conf="0.892884127007177">
+                    <pc:Unicode>ALLEMAGNE.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0010">
+                <pc:Coords points="136,494 311,494 311,519 136,519"/>
+                <pc:TextEquiv conf="0.847470245013577">
+                    <pc:Unicode>omboun, etombre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0011">
+                <pc:Coords points="33,510 425,510 425,539 33,539"/>
+                <pc:TextEquiv conf="0.831032581397247">
+                    <pc:Unicode>S. Ere. la cbevalier angemann Buygens, minisre plemi¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0012">
+                <pc:Coords points="17,526 432,526 432,558 17,558"/>
+                <pc:TextEquiv conf="0.723876635114811">
+                    <pc:Unicode>podenuire de S t lee oi des Payrus, t purti pour aer</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0013">
+                <pc:Coords points="17,546 244,546 244,574 17,574"/>
+                <pc:TextEquiv conf="0.843227790833658">
+                    <pc:Unicode>paser quelque tenps en olande.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0020_line0014">
+                <pc:Coords points="34,558 433,558 433,585 34,585"/>
+                <pc:TextEquiv conf="0.79741611552408">
+                    <pc:Unicode>On aeen i daus la voirée du to le feld-maréchal priuce</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>EXTERIEUE.
+BAVIERE.
+Miee, iepiembre.
+S. M., pur un déert du a noat, n urdonné la fon
+as del polyuunmique e
+Rouirbonne, y septembre.
+SA R le prince enni drruus eut arrive iei aan
+aez M le lieuénnntuconel o sudde-ennup de Layel. Ce prince
+’conlinué hiur ra roule pour Slubourg.
+ALLEMAGNE.
+omboun, etombre.
+S. Ere. la cbevalier angemann Buygens, minisre plemi¬
+podenuire de S t lee oi des Payrus, t purti pour aer
+paser quelque tenps en olande.
+On aeen i daus la voirée du to le feld-maréchal priuce</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0021" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="18,581 434,581 434,629 18,629"/>
+            <pc:TextLine id="region0021_line0000">
+                <pc:Coords points="18,581 216,581 216,603 18,603"/>
+                <pc:TextEquiv conf="0.867251624291142">
+                    <pc:Unicode>Blucher.... ....</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0021_line0001">
+                <pc:Coords points="34,589 434,589 434,617 34,617"/>
+                <pc:TextEquiv conf="0.845299880345738">
+                    <pc:Unicode>On und vuui dau lle de Laland S. A. le prince de Marden¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0021_line0002">
+                <pc:Coords points="177,605 434,605 434,629 177,629"/>
+                <pc:TextEquiv conf="0.838683715722977">
+                    <pc:Unicode>ler ſaire une viile à ton fls, le comte</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Blucher.... ....
+On und vuui dau lle de Laland S. A. le prince de Marden¬
+ler ſaire une viile à ton fls, le comte</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0028" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="19,636 441,636 441,728 19,728"/>
+            <pc:TextLine id="region0028_line0000">
+                <pc:Coords points="35,636 434,636 434,664 35,664"/>
+                <pc:TextEquiv conf="0.778922759459989">
+                    <pc:Unicode>On mae de Panlet que, conſormément au tentuiment du</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0028_line0001">
+                <pc:Coords points="63,651 435,651 435,679 63,679"/>
+                <pc:TextEquiv conf="0.73353654437394">
+                    <pc:Unicode>nas de rauentein, on fait le ao aout l’inuuuraion de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0028_line0002">
+                <pc:Coords points="19,667 435,667 435,697 19,697"/>
+                <pc:TextEquiv conf="0.669186956131698">
+                    <pc:Unicode>rlpiual ae de la cduqpelle ls Aae. a ont aiudià P’atice dirin,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0028_line0003">
+                <pc:Coords points="20,682 441,682 441,717 20,717"/>
+                <pc:TextEquiv conf="0.73919532407811">
+                    <pc:Unicode>qu z e uiti ’un TF Deun chrué an mien des alves d’ar¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0028_line0004">
+                <pc:Coords points="20,707 74,707 74,728 20,728"/>
+                <pc:TextEquiv conf="0.788321644067764">
+                    <pc:Unicode>llere.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>On mae de Panlet que, conſormément au tentuiment du
+nas de rauentein, on fait le ao aout l’inuuuraion de
+rlpiual ae de la cduqpelle ls Aae. a ont aiudià P’atice dirin,
+qu z e uiti ’un TF Deun chrué an mien des alves d’ar¬
+llere.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0030" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="21,717 439,717 439,938 21,938"/>
+            <pc:TextLine id="region0030_line0000">
+                <pc:Coords points="111,717 315,717 315,747 111,747"/>
+                <pc:TextEquiv conf="0.773766754737626">
+                    <pc:Unicode>Prmeſor, te aoptembe.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0001">
+                <pc:Coords points="37,735 436,735 436,765 37,765"/>
+                <pc:TextEquiv conf="0.817919207115514">
+                    <pc:Unicode>on-ueulnent le aénnt de notre rille lhre ai té nunmenté de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0002">
+                <pc:Coords points="21,751 436,751 436,784 21,784"/>
+                <pc:TextEquiv conf="0.497184196238716">
+                    <pc:Unicode>ame marmi le dMiul rir ni ies eroiditi pripr ati</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0003">
+                <pc:Coords points="21,767 436,767 436,800 21,800"/>
+                <pc:TextEquiv conf="0.488671652336635">
+                    <pc:Unicode>unr e cuie dletonil is,i daus le que</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0004">
+                <pc:Coords points="21,783 436,783 436,812 21,812"/>
+                <pc:TextEquiv conf="0.620444404628792">
+                    <pc:Unicode>, veu lauor, de aouvaux hourguemeea élus, dla</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0005">
+                <pc:Coords points="21,798 437,798 437,829 21,829"/>
+                <pc:TextEquiv conf="0.72850634396904">
+                    <pc:Unicode>auribuion dea emploi de la vile a due file entre les ditiren</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0006">
+                <pc:Coords points="22,814 437,814 437,845 22,845"/>
+                <pc:TextEquiv conf="0.623818356578292">
+                    <pc:Unicode>mneulous lu enut Parlil, on s aibdtit, utant qu’il euait pa¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0007">
+                <pc:Coords points="22,829 438,829 438,860 22,860"/>
+                <pc:TextEquiv conf="0.624022492755753">
+                    <pc:Unicode>nnme l iire juqu iit, à u qui aur preuerit pur l’aeue auprfle¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0008">
+                <pc:Coords points="23,846 438,846 438,875 23,875"/>
+                <pc:TextEquiv conf="0.803443546638144">
+                    <pc:Unicode>menuire de onatitution, qui a ét acepté à la aunjorité des</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0009">
+                <pc:Coords points="23,865 391,865 391,892 23,892"/>
+                <pc:TextEquiv conf="0.717652324817503">
+                    <pc:Unicode>toix, e enouite prooluté come loi.. a vi.e l Intie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0010">
+                <pc:Coords points="39,876 439,876 439,909 39,909"/>
+                <pc:TextEquiv conf="0.652201595042859">
+                    <pc:Unicode>Cs jour doit iurpirer unt juis d’auana p pu ire l oui les la¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0011">
+                <pc:Coords points="23,893 423,893 423,923 23,923"/>
+                <pc:TextEquiv conf="0.744392306458146">
+                    <pc:Unicode>ouns de ceuu vile ſaire, qu’il y.r eu lier- dir anut, la vile u</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0030_line0012">
+                <pc:Coords points="24,910 354,910 354,938 24,938"/>
+                <pc:TextEquiv conf="0.714920817595489">
+                    <pc:Unicode>com ant toun lu ſorce des curccntanoes, a éié peun</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Prmeſor, te aoptembe.
+on-ueulnent le aénnt de notre rille lhre ai té nunmenté de
+ame marmi le dMiul rir ni ies eroiditi pripr ati
+unr e cuie dletonil is,i daus le que
+, veu lauor, de aouvaux hourguemeea élus, dla
+auribuion dea emploi de la vile a due file entre les ditiren
+mneulous lu enut Parlil, on s aibdtit, utant qu’il euait pa¬
+nnme l iire juqu iit, à u qui aur preuerit pur l’aeue auprfle¬
+menuire de onatitution, qui a ét acepté à la aunjorité des
+toix, e enouite prooluté come loi.. a vi.e l Intie
+Cs jour doit iurpirer unt juis d’auana p pu ire l oui les la¬
+ouns de ceuu vile ſaire, qu’il y.r eu lier- dir anut, la vile u
+com ant toun lu ſorce des curccntanoes, a éié peun</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0031" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="23,912 439,912 439,957 23,957"/>
+            <pc:TextLine id="region0031_line0000">
+                <pc:Coords points="356,912 408,912 408,929 356,929"/>
+                <pc:TextEquiv conf="0.884773511549941">
+                    <pc:Unicode>ice au ci</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0031_line0001">
+                <pc:Coords points="23,923 439,923 439,957 23,957"/>
+                <pc:TextEquiv conf="0.732586528734677">
+                    <pc:Unicode>ont prine  prinut de la conmidrdéuiiur du nlin, en qualiui de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ice au ci
+ont prine  prinut de la conmidrdéuiiur du nlin, en qualiui de</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0036" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="165,955 440,955 440,982 165,982"/>
+            <pc:TextLine id="region0036_line0000">
+                <pc:Coords points="165,955 440,955 440,982 165,982"/>
+                <pc:TextEquiv conf="0.914031543073625">
+                    <pc:Unicode>ral d’inſanterie Boslopsclun est arrivé hier</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ral d’inſanterie Boslopsclun est arrivé hier</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0037" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="25,987 445,987 445,1252 25,1252"/>
+            <pc:TextLine id="region0037_line0000">
+                <pc:Coords points="41,987 441,987 441,1016 41,1016"/>
+                <pc:TextEquiv conf="0.902543597787099">
+                    <pc:Unicode>Le nombre des étrangers qui nrrivent iei journellenent cue</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0001">
+                <pc:Coords points="25,1005 441,1005 441,1034 25,1034"/>
+                <pc:TextEquiv conf="0.739759211750444">
+                    <pc:Unicode>rtmadimuire Lier, on en nnppai plus de quaur venie Prani</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0002">
+                <pc:Coords points="25,1019 441,1019 441,1051 25,1051"/>
+                <pc:TextEquiv conf="0.62353412281508">
+                    <pc:Unicode>ermruels de premomne de dilinetion; ces deruirre toit</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0003">
+                <pc:Coords points="26,1035 441,1035 441,1065 26,1065"/>
+                <pc:TextEquiv conf="0.753542008334218">
+                    <pc:Unicode>veues er ee y rie pour entendre la céiéebre cantaurie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0004">
+                <pc:Coords points="26,1057 419,1057 419,1081 26,1081"/>
+                <pc:TextEquiv conf="0.806007728402979">
+                    <pc:Unicode>Ms Catlani. Iavvm de la di¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0005">
+                <pc:Coords points="42,1064 441,1064 441,1096 42,1096"/>
+                <pc:TextEquiv conf="0.833754849402412">
+                    <pc:Unicode>n n’eu pas quetinn en ce moment de l’auverure de la diiue;</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0006">
+                <pc:Coords points="26,1082 442,1082 442,1114 26,1114"/>
+                <pc:TextEquiv conf="0.71206746090478">
+                    <pc:Unicode>aen qenaral la polirique paralt dhet mous dans vne enuitre au¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0007">
+                <pc:Coords points="27,1099 379,1099 379,1130 27,1130"/>
+                <pc:TextEquiv conf="0.58112393355009">
+                    <pc:Unicode>uiou, nous aeene oureils iauéreattile,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0008">
+                <pc:Coords points="43,1111 443,1111 443,1141 43,1141"/>
+                <pc:TextEquiv conf="0.741085979489214">
+                    <pc:Unicode>Motre ſoire onioure d&amp;’ute uauvmie; len Anglais vendent</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0009">
+                <pc:Coords points="27,1129 443,1129 443,1157 27,1157"/>
+                <pc:TextEquiv conf="0.765656142006134">
+                    <pc:Unicode>uirs mur tout prir. Les denréies colmmiales aont vou¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0010">
+                <pc:Coords points="27,1143 444,1143 444,1177 27,1177"/>
+                <pc:TextEquiv conf="0.489124007648389">
+                    <pc:Unicode>lour uu lon mr hon en ret l n arrnncre, les dipes le pis lediprre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0011">
+                <pc:Coords points="28,1159 444,1159 444,1192 28,1192"/>
+                <pc:TextEquiv conf="0.58672998157041">
+                    <pc:Unicode>ooiles a vie auponentient de jour ma jaur. Sin iree de poie,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0012">
+                <pc:Coords points="28,1177 445,1177 445,1208 28,1208"/>
+                <pc:TextEquiv conf="0.681459511119124">
+                    <pc:Unicode>tpauleut eucort bien mnraient il lartotuen coie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0013">
+                <pc:Coords points="29,1190 444,1190 444,1223 29,1223"/>
+                <pc:TextEquiv conf="0.398553039577867">
+                    <pc:Unicode>tontons mon e ’ dde der ue ven d d d aas loiii al le</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0014">
+                <pc:Coords points="29,1206 445,1206 445,1236 29,1236"/>
+                <pc:TextEquiv conf="0.613861775980871">
+                    <pc:Unicode>onnaoun, puule de maveue a hanud aulitemen d, Su riddler</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0015">
+                <pc:Coords points="29,1222 445,1222 445,1252 29,1252"/>
+                <pc:TextEquiv conf="0.74200983284782">
+                    <pc:Unicode>nen, e, peux de venu ont amgmmené, depuis la ſoire pasée,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Le nombre des étrangers qui nrrivent iei journellenent cue
+rtmadimuire Lier, on en nnppai plus de quaur venie Prani
+ermruels de premomne de dilinetion; ces deruirre toit
+veues er ee y rie pour entendre la céiéebre cantaurie
+Ms Catlani. Iavvm de la di¬
+n n’eu pas quetinn en ce moment de l’auverure de la diiue;
+aen qenaral la polirique paralt dhet mous dans vne enuitre au¬
+uiou, nous aeene oureils iauéreattile,
+Motre ſoire onioure d&amp;’ute uauvmie; len Anglais vendent
+uirs mur tout prir. Les denréies colmmiales aont vou¬
+lour uu lon mr hon en ret l n arrnncre, les dipes le pis lediprre.
+ooiles a vie auponentient de jour ma jaur. Sin iree de poie,
+tpauleut eucort bien mnraient il lartotuen coie
+tontons mon e ’ dde der ue ven d d d aas loiii al le
+onnaoun, puule de maveue a hanud aulitemen d, Su riddler
+nen, e, peux de venu ont amgmmené, depuis la ſoire pasée,</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0045" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="14,1284 447,1284 447,1318 14,1318"/>
+            <pc:TextLine id="region0045_line0000">
+                <pc:Coords points="14,1284 447,1284 447,1318 14,1318"/>
+                <pc:TextEquiv conf="0.655492744937136">
+                    <pc:Unicode>aaion des pe rs qui lii ont déprieter</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>aaion des pe rs qui lii ont déprieter</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0046" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="26,1300 453,1300 453,1523 26,1523"/>
+            <pc:TextLine id="region0046_line0000">
+                <pc:Coords points="31,1300 447,1300 447,1330 31,1330"/>
+                <pc:TextEquiv conf="0.723724838997511">
+                    <pc:Unicode>mens l a rrre, en vern de la couvention coutelueà Paris en</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0001">
+                <pc:Coords points="26,1315 448,1315 448,1346 26,1346"/>
+                <pc:TextEquiv conf="0.714493406216303">
+                    <pc:Unicode>moev denle as, os, lu condtion, ienmoint du renrplr les</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0002">
+                <pc:Coords points="31,1330 449,1330 449,1365 31,1365"/>
+                <pc:TextEquiv conf="0.573688504984673">
+                    <pc:Unicode>aement cipulds paur laruiede ſp de lrele de orurie die¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0003">
+                <pc:Coords points="174,1347 449,1347 449,1376 174,1376"/>
+                <pc:TextEquiv conf="0.752306075570115">
+                    <pc:Unicode>Es, e yant, en enéeuéouu de r</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0004">
+                <pc:Coords points="157,1362 449,1362 449,1393 157,1393"/>
+                <pc:TextEquiv conf="0.770468534098278">
+                    <pc:Unicode>savt uour les droius dle ourmineié et de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0005">
+                <pc:Coords points="32,1379 450,1379 450,1414 32,1414"/>
+                <pc:TextEquiv conf="0.58370964669703">
+                    <pc:Unicode>repetl, à’S a&amp; La lardomure de eue lmibourg le detmeon</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0006">
+                <pc:Coords points="32,1400 387,1400 387,1427 32,1427"/>
+                <pc:TextEquiv conf="0.833713041814109">
+                    <pc:Unicode>i denous du département de la Sare, auvoir VMut,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0007">
+                <pc:Coords points="33,1409 451,1409 451,1442 33,1442"/>
+                <pc:TextEquiv conf="0.648299079334303">
+                    <pc:Unicode>dn a le Peuue par ’ariele a de.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0008">
+                <pc:Coords points="35,1426 451,1426 451,1459 35,1459"/>
+                <pc:TextEquiv conf="0.54880017273218">
+                    <pc:Unicode>eeve dn emeré, e&amp; la endroius uu armndeel, Seelerdael,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0009">
+                <pc:Coords points="36,1441 452,1441 452,1474 36,1474"/>
+                <pc:TextEquiv conf="0.566939877809038">
+                    <pc:Unicode>ourmdefe onton de drondtrs, le</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0010">
+                <pc:Coords points="36,1457 452,1457 452,1491 36,1491"/>
+                <pc:TextEquiv conf="0.490703299028568">
+                    <pc:Unicode>oumi on erips de ves pleintepouniii uo m de de S .</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0011">
+                <pc:Coords points="36,1475 453,1475 453,1505 36,1505"/>
+                <pc:TextEquiv conf="0.700545690071054">
+                    <pc:Unicode>Ie nu e, di penue, par les prérentes, outes les uular de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0046_line0012">
+                <pc:Coords points="36,1492 453,1492 453,1523 36,1523"/>
+                <pc:TextEquiv conf="0.729715029316066">
+                    <pc:Unicode>ndimininrailes, ainsi que les fonctoonaires ecclééaauiqueetet ¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>mens l a rrre, en vern de la couvention coutelueà Paris en
+moev denle as, os, lu condtion, ienmoint du renrplr les
+aement cipulds paur laruiede ſp de lrele de orurie die¬
+Es, e yant, en enéeuéouu de r
+savt uour les droius dle ourmineié et de
+repetl, à’S a&amp; La lardomure de eue lmibourg le detmeon
+i denous du département de la Sare, auvoir VMut,
+dn a le Peuue par ’ariele a de.
+eeve dn emeré, e&amp; la endroius uu armndeel, Seelerdael,
+ourmdefe onton de drondtrs, le
+oumi on erips de ves pleintepouniii uo m de de S .
+Ie nu e, di penue, par les prérentes, outes les uular de
+ndimininrailes, ainsi que les fonctoonaires ecclééaauiqueetet ¬</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0047" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="32,1376 117,1376 117,1397 32,1397"/>
+            <pc:TextLine id="region0047_line0000">
+                <pc:Coords points="32,1376 117,1376 117,1397 32,1397"/>
+                <pc:TextEquiv conf="0.908882233376304">
+                    <pc:Unicode>angagemens</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>angagemens</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0048" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="350,1525 458,1525 458,1540 350,1540"/>
+            <pc:TextLine id="region0048_line0000">
+                <pc:Coords points="350,1525 458,1525 458,1540 350,1540"/>
+                <pc:TextEquiv conf="0.0">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode></pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0050" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="296,1395 458,1395 458,1417 296,1417"/>
+            <pc:TextLine id="region0050_line0000">
+                <pc:Coords points="296,1395 458,1395 458,1417 296,1417"/>
+                <pc:TextEquiv conf="0.95973086072051">
+                    <pc:Unicode>auvoir: tout le canton.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>auvoir: tout le canton.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0052" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="443,301 867,301 867,911 443,911"/>
+            <pc:TextLine id="region0052_line0000">
+                <pc:Coords points="469,301 858,301 858,331 469,331"/>
+                <pc:TextEquiv conf="0.816831332259604">
+                    <pc:Unicode>A tous les eujeus, de leurs levoin et obligatons comme tele</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0001">
+                <pc:Coords points="495,319 859,319 859,348 495,348"/>
+                <pc:TextEquiv conf="0.701115299187929">
+                    <pc:Unicode>oi de Pruas eai pénd’une vire orouiaiannc ppont</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0002">
+                <pc:Coords points="485,334 860,334 860,363 485,363"/>
+                <pc:TextEquiv conf="0.823320857884333">
+                    <pc:Unicode>ius e l’iucueiment que les hraves halilaus de ce pays lui</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0003">
+                <pc:Coords points="443,349 859,349 859,379 443,379"/>
+                <pc:TextEquiv conf="0.715997915542754">
+                    <pc:Unicode>amt miantrés, aini qu’i amile, ex en e voyant ſuriie?</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0004">
+                <pc:Coords points="444,365 861,365 861,394 444,394"/>
+                <pc:TextEquiv conf="0.777205099783856">
+                    <pc:Unicode>cetus reparaion par l néccité de conuervur a aus daus les ar¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0005">
+                <pc:Coords points="444,380 860,380 860,409 444,409"/>
+                <pc:TextEquiv conf="0.842313640239655">
+                    <pc:Unicode>Ees de département de la Srre qui sont contieues l on terri¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0006">
+                <pc:Coords points="445,396 859,396 859,425 445,425"/>
+                <pc:TextEquiv conf="0.858663771607738">
+                    <pc:Unicode>toire de ce cié, S &amp; Forne les voux les plus ainceres pour le</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0007">
+                <pc:Coords points="444,412 861,412 861,441 444,441"/>
+                <pc:TextEquiv conf="0.847675008882846">
+                    <pc:Unicode>bien d’un pays dont les bbbians ont prouvé, par leurs diape¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0008">
+                <pc:Coords points="445,417 860,417 860,454 445,454"/>
+                <pc:TextEquiv conf="0.524201779015232">
+                    <pc:Unicode>atou, qu l r auremua pra mains de ilié e&amp; d’hra eure mour</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0009">
+                <pc:Coords points="445,444 785,444 785,473 445,473"/>
+                <pc:TextEquiv conf="0.790735308581413">
+                    <pc:Unicode>SAA le landgrave de leue ombourg et a ſamile,.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0010">
+                <pc:Coords points="462,459 777,459 777,484 462,484"/>
+                <pc:TextEquiv conf="0.803266516439851">
+                    <pc:Unicode>i Emneſort-aur-le-Mein, le o ceptemhre ri.2</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0011">
+                <pc:Coords points="516,474 861,474 861,504 516,504"/>
+                <pc:TextEquiv conf="0.808580535884235">
+                    <pc:Unicode>L uron de Sonumaaoauxmmoure, direeur de la</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0012">
+                <pc:Coords points="532,491 861,491 861,518 532,518"/>
+                <pc:TextEquiv conf="0.895561281686165">
+                    <pc:Unicode>régence pruienne de Coblene, i i division, et</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0013">
+                <pc:Coords points="533,505 801,505 801,531 533,531"/>
+                <pc:TextEquiv conf="0.841645762073644">
+                    <pc:Unicode>chevulier de l’Aigle ouge de la à latte.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0014">
+                <pc:Coords points="614,527 693,527 693,546 614,546"/>
+                <pc:TextEquiv conf="0.986450864587511">
+                    <pc:Unicode>ITALIE.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0015">
+                <pc:Coords points="592,546 713,546 713,570 592,570"/>
+                <pc:TextEquiv conf="0.804234118511279">
+                    <pc:Unicode>Naples, oot.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0016">
+                <pc:Coords points="460,564 817,564 817,590 460,590"/>
+                <pc:TextEquiv conf="0.678270501601452">
+                    <pc:Unicode>S , le aaroule, minittre des celatooni nrtérimmea.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0017">
+                <pc:Coords points="448,577 841,577 841,603 448,603"/>
+                <pc:TextEquiv conf="0.605789166881093">
+                    <pc:Unicode>mu noiefaur miaaireus arangere, reuivemeutl lu preutntlen den Mroi</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0018">
+                <pc:Coords points="448,589 856,589 856,612 448,612"/>
+                <pc:TextEquiv conf="0.72964452356733">
+                    <pc:Unicode>eaine Lurt a de l’ate du ogrs, dont les Amérdninn parmlment vnu</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0019">
+                <pc:Coords points="448,602 861,602 861,624 448,624"/>
+                <pc:TextEquiv conf="0.823910680481511">
+                    <pc:Unicode>lr meiper, e aripole que pour leis, et ne penx, pur unulgie,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0020">
+                <pc:Coords points="547,615 862,615 862,637 547,637"/>
+                <pc:TextEquiv conf="0.817960295663215">
+                    <pc:Unicode>oyuums dans lequelſa jes mur orus légliſnes nunt re¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0021">
+                <pc:Coords points="495,627 863,627 863,652 495,652"/>
+                <pc:TextEquiv conf="0.581119508647092">
+                    <pc:Unicode>eeaot pas arribleudeeu act de vidlumen ereu, pnniami leuri¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0022">
+                <pc:Coords points="500,640 862,640 862,672 500,672"/>
+                <pc:TextEquiv conf="0.453367965109737">
+                    <pc:Unicode>a dirnper out epe le Pmaaudaitaie qui eer.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0023">
+                <pc:Coords points="463,653 863,653 863,689 463,689"/>
+                <pc:TextEquiv conf="0.325851238306204">
+                    <pc:Unicode>ar e oe d de ge eie u re ea eea maprere</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0024">
+                <pc:Coords points="463,677 745,677 745,701 463,701"/>
+                <pc:TextEquiv conf="0.650951468418579">
+                    <pc:Unicode>dn’ eerboon atre pourermenent a mis dausl</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0025">
+                <pc:Coords points="449,690 690,690 690,712 449,712"/>
+                <pc:TextEquiv conf="0.732872843447043">
+                    <pc:Unicode>oue et lr digiié cnmpaupbble nrec l’ho</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0026">
+                <pc:Coords points="449,702 752,702 752,725 449,725"/>
+                <pc:TextEquiv conf="0.738142263365797">
+                    <pc:Unicode>e . Pichouy cont pl mdérdos depuis quelque¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0027">
+                <pc:Coords points="450,715 759,715 759,746 450,746"/>
+                <pc:TextEquiv conf="0.443484730793136">
+                    <pc:Unicode>E auia ’u arrs auis ler laus rieouadiag pei</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0028">
+                <pc:Coords points="477,726 803,726 803,752 477,752"/>
+                <pc:TextEquiv conf="0.600093390535471">
+                    <pc:Unicode>Edi itre déu tnlrés par le eule volnate d ne puitgmee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0029">
+                <pc:Coords points="461,739 864,739 864,770 461,770"/>
+                <pc:TextEquiv conf="0.470491948225147">
+                    <pc:Unicode>xalutritraile is ’ erimres dou e paiſs qur ’a rieins eu’it dle</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0030">
+                <pc:Coords points="448,743 864,743 864,776 448,776"/>
+                <pc:TextEquiv conf="0.381959717621624">
+                    <pc:Unicode>PS moutitoes ir d le le gerori gaus moaele ’imrideinedae</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0031">
+                <pc:Coords points="451,763 864,763 864,785 451,785"/>
+                <pc:TextEquiv conf="0.769819109027337">
+                    <pc:Unicode>de t lu lu Fran ſl oa aunet des repréontarions ſandéer L’anele de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0032">
+                <pc:Coords points="451,776 865,776 865,809 451,809"/>
+                <pc:TextEquiv conf="0.437225074927555">
+                    <pc:Unicode>um is lE i tui eririe dus vuereraig, ea ruin duu</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0033">
+                <pc:Coords points="450,788 841,788 841,809 450,809"/>
+                <pc:TextEquiv conf="0.786316773993534">
+                    <pc:Unicode>moiis que pan eu. Motre rauue ent cnoquéenmue, &amp;t la Prétenton</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0034">
+                <pc:Coords points="451,788 866,788 866,822 451,822"/>
+                <pc:TextEquiv conf="0.545106810283276">
+                    <pc:Unicode>Ediu qus Rer euns ito re aur ae onmrie eoe, eu la mradimuin de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0035">
+                <pc:Coords points="463,815 729,815 729,835 463,835"/>
+                <pc:TextEquiv conf="0.821111727663612">
+                    <pc:Unicode>Le ſeld-nur déelul ole Nygent va parair pour</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0036">
+                <pc:Coords points="452,826 813,826 813,849 452,849"/>
+                <pc:TextEquiv conf="0.723056780605399">
+                    <pc:Unicode>paéalt phon en publie vmi à la caur qu’uvee l’uniſome, aupiaii¬.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0037">
+                <pc:Coords points="459,838 866,838 866,864 459,864"/>
+                <pc:TextEquiv conf="0.564327414793305">
+                    <pc:Unicode>aMons ailedmdns n nero e de laires Amnmt air</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0038">
+                <pc:Coords points="452,843 867,843 867,876 452,876"/>
+                <pc:TextEquiv conf="0.359731837700714">
+                    <pc:Unicode>riae imrare m e da gus erlu mrenrur rat re air mre mdte</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0039">
+                <pc:Coords points="477,865 686,865 686,888 477,888"/>
+                <pc:TextEquiv conf="0.832587798881744">
+                    <pc:Unicode>ibles Nons nous refunns toujourz au</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0040">
+                <pc:Coords points="453,877 686,877 686,899 453,899"/>
+                <pc:TextEquiv conf="0.719005949771555">
+                    <pc:Unicode>ie aiin aidge micile, fuihlement à la.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0052_line0041">
+                <pc:Coords points="453,890 582,890 582,911 453,911"/>
+                <pc:TextEquiv conf="0.7991138970134">
+                    <pc:Unicode>ouiont pus uudne dus</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>A tous les eujeus, de leurs levoin et obligatons comme tele
+oi de Pruas eai pénd’une vire orouiaiannc ppont
+ius e l’iucueiment que les hraves halilaus de ce pays lui
+amt miantrés, aini qu’i amile, ex en e voyant ſuriie?
+cetus reparaion par l néccité de conuervur a aus daus les ar¬
+Ees de département de la Srre qui sont contieues l on terri¬
+toire de ce cié, S &amp; Forne les voux les plus ainceres pour le
+bien d’un pays dont les bbbians ont prouvé, par leurs diape¬
+atou, qu l r auremua pra mains de ilié e&amp; d’hra eure mour
+SAA le landgrave de leue ombourg et a ſamile,.
+i Emneſort-aur-le-Mein, le o ceptemhre ri.2
+L uron de Sonumaaoauxmmoure, direeur de la
+régence pruienne de Coblene, i i division, et
+chevulier de l’Aigle ouge de la à latte.
+ITALIE.
+Naples, oot.
+S , le aaroule, minittre des celatooni nrtérimmea.
+mu noiefaur miaaireus arangere, reuivemeutl lu preutntlen den Mroi
+eaine Lurt a de l’ate du ogrs, dont les Amérdninn parmlment vnu
+lr meiper, e aripole que pour leis, et ne penx, pur unulgie,
+oyuums dans lequelſa jes mur orus légliſnes nunt re¬
+eeaot pas arribleudeeu act de vidlumen ereu, pnniami leuri¬
+a dirnper out epe le Pmaaudaitaie qui eer.
+ar e oe d de ge eie u re ea eea maprere
+dn’ eerboon atre pourermenent a mis dausl
+oue et lr digiié cnmpaupbble nrec l’ho
+e . Pichouy cont pl mdérdos depuis quelque¬
+E auia ’u arrs auis ler laus rieouadiag pei
+Edi itre déu tnlrés par le eule volnate d ne puitgmee
+xalutritraile is ’ erimres dou e paiſs qur ’a rieins eu’it dle
+PS moutitoes ir d le le gerori gaus moaele ’imrideinedae
+de t lu lu Fran ſl oa aunet des repréontarions ſandéer L’anele de
+um is lE i tui eririe dus vuereraig, ea ruin duu
+moiis que pan eu. Motre rauue ent cnoquéenmue, &amp;t la Prétenton
+Ediu qus Rer euns ito re aur ae onmrie eoe, eu la mradimuin de
+Le ſeld-nur déelul ole Nygent va parair pour
+paéalt phon en publie vmi à la caur qu’uvee l’uniſome, aupiaii¬.
+aMons ailedmdns n nero e de laires Amnmt air
+riae imrare m e da gus erlu mrenrur rat re air mre mdte
+ibles Nons nous refunns toujourz au
+ie aiin aidge micile, fuihlement à la.
+ouiont pus uudne dus</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0066" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="766,696 864,696 864,735 766,735"/>
+            <pc:TextLine id="region0066_line0000">
+                <pc:Coords points="766,696 863,696 863,719 766,719"/>
+                <pc:TextEquiv conf="0.605879474024405">
+                    <pc:Unicode>re pure e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0066_line0001">
+                <pc:Coords points="781,705 864,705 864,735 781,735"/>
+                <pc:TextEquiv conf="0.511229352690279">
+                    <pc:Unicode>Oe pedr de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>re pure e
+Oe pedr de</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0078" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="695,863 800,863 800,913 695,913"/>
+            <pc:TextLine id="region0078_line0000">
+                <pc:Coords points="698,863 786,863 786,881 698,881"/>
+                <pc:TextEquiv conf="0.861238796872397">
+                    <pc:Unicode>tubliaement les</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0078_line0001">
+                <pc:Coords points="698,867 800,867 800,896 698,896"/>
+                <pc:TextEquiv conf="0.473994497360106">
+                    <pc:Unicode>a l’orite dlesji,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0078_line0002">
+                <pc:Coords points="695,887 798,887 798,913 695,913"/>
+                <pc:TextEquiv conf="0.570531035223532">
+                    <pc:Unicode>alilil, ea il eu , Er</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>tubliaement les
+a l’orite dlesji,
+alilil, ea il eu , Er</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0080" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="597,893 640,893 640,910 597,910"/>
+            <pc:TextLine id="region0080_line0000">
+                <pc:Coords points="597,893 640,893 640,910 597,910"/>
+                <pc:TextEquiv conf="0.715233337896366">
+                    <pc:Unicode>ea payn</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ea payn</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0084" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="452,942 875,942 875,1145 452,1145"/>
+            <pc:TextLine id="region0084_line0000">
+                <pc:Coords points="556,942 768,942 768,963 556,963"/>
+                <pc:TextEquiv conf="0.927461688953732">
+                    <pc:Unicode>ROIAUME DES PAYS-BAS.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0001">
+                <pc:Coords points="567,962 757,962 757,986 567,986"/>
+                <pc:TextEquiv conf="0.729400923897823">
+                    <pc:Unicode>Luxmboung, aeptmmn.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0002">
+                <pc:Coords points="469,980 862,980 862,1004 469,1004"/>
+                <pc:TextEquiv conf="0.925100266479924">
+                    <pc:Unicode>Ia cour d’atiss a condamné bier en cete ville, à la pein</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0003">
+                <pc:Coords points="455,996 871,996 871,1024 455,1024"/>
+                <pc:TextEquiv conf="0.843485602058448">
+                    <pc:Unicode>pitale, les deux ſrares lircbauuir, juiſs, convuineus de l’ar¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0004">
+                <pc:Coords points="455,1012 871,1012 871,1037 455,1037"/>
+                <pc:TextEquiv conf="0.836597871102181">
+                    <pc:Unicode>nuinnt comms ii le y avril ur la veuve Trauncb, va filee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0005">
+                <pc:Coords points="456,1027 871,1027 871,1054 456,1054"/>
+                <pc:TextEquiv conf="0.873932414187511">
+                    <pc:Unicode>e ves deux garçons, de l’age l prés de neu à dix ans.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0006">
+                <pc:Coords points="456,1043 871,1043 871,1071 456,1071"/>
+                <pc:TextEquiv conf="0.76891838461233">
+                    <pc:Unicode>des trands coupables aaient éé arreues par la maréelbmauuée</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0007">
+                <pc:Coords points="456,1058 875,1058 875,1086 456,1086"/>
+                <pc:TextEquiv conf="0.892752646646393">
+                    <pc:Unicode>quelques heures aprés la découverte de ce grime. dn troinée</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0008">
+                <pc:Coords points="452,1075 872,1075 872,1104 452,1104"/>
+                <pc:TextEquiv conf="0.730233039842212">
+                    <pc:Unicode>jaiſ, impiqué dans cus aſuitul aauiité. Ceute cauea</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0009">
+                <pc:Coords points="457,1089 872,1089 872,1118 457,1118"/>
+                <pc:TextEquiv conf="0.813243396784985">
+                    <pc:Unicode>eé uivie ave un grand intért ur le piblie; les coupable</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0010">
+                <pc:Coords points="458,1107 873,1107 873,1136 458,1136"/>
+                <pc:TextEquiv conf="0.914640685428187">
+                    <pc:Unicode>n’ont ren avoué. On ignore encore s’ils ce nt pourvus en c¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0084_line0011">
+                <pc:Coords points="458,1128 494,1128 494,1145 458,1145"/>
+                <pc:TextEquiv conf="0.85362702087344">
+                    <pc:Unicode>tiun.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ROIAUME DES PAYS-BAS.
+Luxmboung, aeptmmn.
+Ia cour d’atiss a condamné bier en cete ville, à la pein
+pitale, les deux ſrares lircbauuir, juiſs, convuineus de l’ar¬
+nuinnt comms ii le y avril ur la veuve Trauncb, va filee
+e ves deux garçons, de l’age l prés de neu à dix ans.
+des trands coupables aaient éé arreues par la maréelbmauuée
+quelques heures aprés la découverte de ce grime. dn troinée
+jaiſ, impiqué dans cus aſuitul aauiité. Ceute cauea
+eé uivie ave un grand intért ur le piblie; les coupable
+n’ont ren avoué. On ignore encore s’ils ce nt pourvus en c¬
+tiun.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0087" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="459,1138 876,1138 876,1279 459,1279"/>
+            <pc:TextLine id="region0087_line0000">
+                <pc:Coords points="577,1138 755,1138 755,1163 577,1163"/>
+                <pc:TextEquiv conf="0.836962617303999">
+                    <pc:Unicode>Chorderoy, t epenbre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0001">
+                <pc:Coords points="474,1155 875,1155 875,1182 474,1182"/>
+                <pc:TextEquiv conf="0.919010391420198">
+                    <pc:Unicode>Le 3 de ce mois, il y a en iei une céréronnie trés-intére¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0002">
+                <pc:Coords points="459,1171 816,1171 816,1197 459,1197"/>
+                <pc:TextEquiv conf="0.754498652640647">
+                    <pc:Unicode>ant. S Ere, e lietenantgénérl hron rr yenhoir,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0003">
+                <pc:Coords points="459,1188 796,1188 796,1215 459,1215"/>
+                <pc:TextEquiv conf="0.794465679410314">
+                    <pc:Unicode>tenr umémér des foruieations du royaume, a pous,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0004">
+                <pc:Coords points="459,1203 876,1203 876,1230 459,1230"/>
+                <pc:TextEquiv conf="0.905896273711246">
+                    <pc:Unicode>S M, le roi, la premibre piurre des nouveaux ouvrages des for¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0005">
+                <pc:Coords points="460,1219 875,1219 875,1244 460,1244"/>
+                <pc:TextEquiv conf="0.874130296324266">
+                    <pc:Unicode>tifioarions de ceie ville. Les gméroux, les oſciers aupériour,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0006">
+                <pc:Coords points="460,1235 876,1235 876,1259 460,1259"/>
+                <pc:TextEquiv conf="0.915748557404452">
+                    <pc:Unicode>letinnnaires civlls et militaires, ainai qu’un grand nombre</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0087_line0007">
+                <pc:Coords points="459,1250 837,1250 837,1279 459,1279"/>
+                <pc:TextEquiv conf="0.827108178686626">
+                    <pc:Unicode>de eun des deux ees, nasistmient à tte volunnité.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Chorderoy, t epenbre.
+Le 3 de ce mois, il y a en iei une céréronnie trés-intére¬
+ant. S Ere, e lietenantgénérl hron rr yenhoir,
+tenr umémér des foruieations du royaume, a pous,
+S M, le roi, la premibre piurre des nouveaux ouvrages des for¬
+tifioarions de ceie ville. Les gméroux, les oſciers aupériour,
+letinnnaires civlls et militaires, ainai qu’un grand nombre
+de eun des deux ees, nasistmient à tte volunnité.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0090" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="585,1281 755,1281 755,1331 585,1331"/>
+            <pc:TextLine id="region0090_line0000">
+                <pc:Coords points="596,1281 744,1281 744,1310 596,1310"/>
+                <pc:TextEquiv conf="0.872817996575807">
+                    <pc:Unicode>INTERIEUR.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0090_line0001">
+                <pc:Coords points="585,1307 755,1307 755,1331 585,1331"/>
+                <pc:TextEquiv conf="0.865440220763718">
+                    <pc:Unicode>Tououse, to septoembre.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>INTERIEUR.
+Tououse, to septoembre.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0091" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="463,1324 878,1324 878,1369 463,1369"/>
+            <pc:TextLine id="region0091_line0000">
+                <pc:Coords points="478,1324 878,1324 878,1351 478,1351"/>
+                <pc:TextEquiv conf="0.93347920894268">
+                    <pc:Unicode>Dimanche dernier, une cérémonie touchante n en lien dans</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0091_line0001">
+                <pc:Coords points="463,1341 878,1341 878,1369 463,1369"/>
+                <pc:TextEquiv conf="0.867502217168688">
+                    <pc:Unicode>la empelle dens roligieuaes de la Viouation. Une dame veuve d’un</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Dimanche dernier, une cérémonie touchante n en lien dans
+la empelle dens roligieuaes de la Viouation. Une dame veuve d’un</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0092" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="463,1357 891,1357 891,1383 463,1383"/>
+            <pc:TextLine id="region0092_line0000">
+                <pc:Coords points="463,1357 891,1357 891,1383 463,1383"/>
+                <pc:TextEquiv conf="0.853208678766616">
+                    <pc:Unicode>aneten cnneiller au nénéclal, et a ille, Agée de dix-ept ans.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>aneten cnneiller au nénéclal, et a ille, Agée de dix-ept ans.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0093" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="464,1372 885,1372 885,1512 464,1512"/>
+            <pc:TextLine id="region0093_line0000">
+                <pc:Coords points="464,1372 880,1372 880,1401 464,1401"/>
+                <pc:TextEquiv conf="0.856044807508566">
+                    <pc:Unicode>ont pris en mame tepe le voile, i les traptoges d’une lortune</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0001">
+                <pc:Coords points="464,1388 880,1388 880,1413 464,1413"/>
+                <pc:TextEquiv conf="0.884493411715504">
+                    <pc:Unicode>Lonorahle. ni la conaidérauon dont alles iuient environnées,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0002">
+                <pc:Coords points="465,1404 882,1404 882,1432 465,1432"/>
+                <pc:TextEquiv conf="0.829375177293394">
+                    <pc:Unicode>n’ont pa cbranler, leur deurmination. Eotralnées, par leu</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0003">
+                <pc:Coords points="466,1419 882,1419 882,1449 466,1449"/>
+                <pc:TextEquiv conf="0.818682958019269">
+                    <pc:Unicode>pité, eues ont cidl oue deux aur impiraions de leur ſer</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0004">
+                <pc:Coords points="466,1435 882,1435 882,1462 466,1462"/>
+                <pc:TextEquiv conf="0.869028336637494">
+                    <pc:Unicode>veur, et elles us pout uirées ave joie d’un monde dont le¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0005">
+                <pc:Coords points="466,1451 882,1451 882,1476 466,1476"/>
+                <pc:TextEquiv conf="0.870713127753028">
+                    <pc:Unicode>vaniles n’ont pu les aéduire, et ou elles ont laiué l’exmple ne</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0006">
+                <pc:Coords points="467,1466 881,1466 881,1491 467,1491"/>
+                <pc:TextEquiv conf="0.860925638588007">
+                    <pc:Unicode>laun verlus u le aouvenir de leur beauté. M l’abbé de Carmbon,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0093_line0007">
+                <pc:Coords points="467,1483 885,1483 885,1512 467,1512"/>
+                <pc:TextEquiv conf="0.858316844058556">
+                    <pc:Unicode>prennier vieare généril de Mi. l’archevéque, a prédé à ceta</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ont pris en mame tepe le voile, i les traptoges d’une lortune
+Lonorahle. ni la conaidérauon dont alles iuient environnées,
+n’ont pa cbranler, leur deurmination. Eotralnées, par leu
+pité, eues ont cidl oue deux aur impiraions de leur ſer
+veur, et elles us pout uirées ave joie d’un monde dont le¬
+vaniles n’ont pu les aéduire, et ou elles ont laiué l’exmple ne
+laun verlus u le aouvenir de leur beauté. M l’abbé de Carmbon,
+prennier vieare généril de Mi. l’archevéque, a prédé à ceta</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0095" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="462,1520 594,1520 594,1538 462,1538"/>
+            <pc:TextLine id="region0095_line0000">
+                <pc:Coords points="462,1520 594,1520 594,1538 462,1538"/>
+                <pc:TextEquiv conf="0.557298491398493">
+                    <pc:Unicode>.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0097" orientation="1.15785558909127" type="floating" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="550,1540 947,1540 947,1565 550,1565"/>
+            <pc:TextLine id="region0097_line0000">
+                <pc:Coords points="550,1540 947,1540 947,1565 550,1565"/>
+                <pc:TextEquiv conf="0.870592601134599">
+                    <pc:Unicode>Source galljca bnffr!Bibliothéque nationale de France</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Source galljca bnffr!Bibliothéque nationale de France</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0001" orientation="1.15785558909127">
+            <pc:Coords points="0,1253 16,1253 16,1273 0,1273"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0002" orientation="1.15785558909127">
+            <pc:Coords points="0,1299 13,1299 13,1317 0,1317"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0003" orientation="1.15785558909127">
+            <pc:Coords points="0,21 830,21 830,213 0,213"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0005" orientation="1.15785558909127">
+            <pc:Coords points="771,23 854,23 854,67 771,67"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0010" orientation="1.15785558909127">
+            <pc:Coords points="360,261 396,261 396,280 360,280"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0013" orientation="1.15785558909127">
+            <pc:Coords points="771,59 849,59 849,186 771,186"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0022" orientation="1.15785558909127">
+            <pc:Coords points="22,388 33,388 33,402 22,402"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0023" orientation="1.15785558909127">
+            <pc:Coords points="398,422 430,422 430,434 398,434"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0024" orientation="1.15785558909127">
+            <pc:Coords points="75,494 94,494 94,512 75,512"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0025" orientation="1.15785558909127">
+            <pc:Coords points="405,515 434,515 434,530 405,530"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0026" orientation="1.15785558909127">
+            <pc:Coords points="170,592 296,592 296,613 170,613"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0027" orientation="1.15785558909127">
+            <pc:Coords points="151,609 185,609 185,629 151,629"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0029" orientation="1.15785558909127">
+            <pc:Coords points="38,664 71,664 71,687 38,687"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0032" orientation="1.15785558909127">
+            <pc:Coords points="245,853 272,853 272,868 245,868"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0033" orientation="1.15785558909127">
+            <pc:Coords points="319,883 331,883 331,898 319,898"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0034" orientation="1.15785558909127">
+            <pc:Coords points="348,894 443,894 443,929 348,929"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0035" orientation="1.15785558909127">
+            <pc:Coords points="25,952 173,952 173,1000 25,1000"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0038" orientation="1.15785558909127">
+            <pc:Coords points="303,1025 314,1025 314,1040 303,1040"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0039" orientation="1.15785558909127">
+            <pc:Coords points="153,1096 189,1096 189,1111 153,1111"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0040" orientation="1.15785558909127">
+            <pc:Coords points="316,1196 334,1196 334,1212 316,1212"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0041" orientation="1.15785558909127">
+            <pc:Coords points="71,1251 97,1251 97,1266 71,1266"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0042" orientation="1.15785558909127">
+            <pc:Coords points="179,1260 241,1260 241,1279 179,1279"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0043" orientation="1.15785558909127">
+            <pc:Coords points="315,1271 341,1271 341,1282 315,1282"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0049" orientation="1.15785558909127">
+            <pc:Coords points="386,311 444,311 444,360 386,360"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0053" orientation="1.15785558909127">
+            <pc:Coords points="441,306 502,306 502,357 441,357"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0054" orientation="1.15785558909127">
+            <pc:Coords points="528,356 566,356 566,373 528,373"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0055" orientation="1.15785558909127">
+            <pc:Coords points="737,370 774,370 774,385 737,385"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0056" orientation="1.15785558909127">
+            <pc:Coords points="634,417 648,417 648,432 634,432"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0057" orientation="1.15785558909127">
+            <pc:Coords points="767,432 790,432 790,448 767,448"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0058" orientation="1.15785558909127">
+            <pc:Coords points="814,567 866,567 866,596 814,596"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0059" orientation="1.15785558909127">
+            <pc:Coords points="448,595 559,595 559,671 448,671"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0060" orientation="1.15785558909127">
+            <pc:Coords points="610,594 696,594 696,646 610,646"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0061" orientation="1.15785558909127">
+            <pc:Coords points="753,594 762,594 762,608 753,608"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0062" orientation="1.15785558909127">
+            <pc:Coords points="590,603 813,603 813,634 590,634"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0063" orientation="1.15785558909127">
+            <pc:Coords points="680,631 691,631 691,645 680,645"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0064" orientation="1.15785558909127">
+            <pc:Coords points="737,640 864,640 864,741 737,741"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0065" orientation="1.15785558909127">
+            <pc:Coords points="683,693 774,693 774,730 683,730"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0067" orientation="1.15785558909127">
+            <pc:Coords points="638,718 659,718 659,745 638,745"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0068" orientation="1.15785558909127">
+            <pc:Coords points="795,739 829,739 829,750 795,750"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0069" orientation="1.15785558909127">
+            <pc:Coords points="603,746 648,746 648,777 603,777"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0070" orientation="1.15785558909127">
+            <pc:Coords points="777,771 795,771 795,781 777,781"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0071" orientation="1.15785558909127">
+            <pc:Coords points="574,793 634,793 634,808 574,808"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0072" orientation="1.15785558909127">
+            <pc:Coords points="743,797 865,797 865,829 743,829"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0073" orientation="1.15785558909127">
+            <pc:Coords points="561,803 747,803 747,833 561,833"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0074" orientation="1.15785558909127">
+            <pc:Coords points="715,830 743,830 743,856 715,856"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0075" orientation="1.15785558909127">
+            <pc:Coords points="694,863 868,863 868,911 694,911"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0076" orientation="1.15785558909127">
+            <pc:Coords points="595,871 703,871 703,897 595,897"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0077" orientation="1.15785558909127">
+            <pc:Coords points="750,876 760,876 760,886 750,886"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0079" orientation="1.15785558909127">
+            <pc:Coords points="575,894 605,894 605,907 575,907"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0081" orientation="1.15785558909127">
+            <pc:Coords points="758,915 782,915 782,943 758,943"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0083" orientation="1.15785558909127">
+            <pc:Coords points="756,943 777,943 777,953 756,953"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0085" orientation="1.15785558909127">
+            <pc:Coords points="856,985 871,985 871,1000 856,1000"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0086" orientation="1.15785558909127">
+            <pc:Coords points="624,1088 670,1088 670,1112 624,1112"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0088" orientation="1.15785558909127">
+            <pc:Coords points="575,1176 875,1176 875,1209 575,1209"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0094" orientation="1.15785558909127">
+            <pc:Coords points="717,1411 729,1411 729,1440 717,1440"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0098" orientation="1.15785558909127">
+            <pc:Coords points="930,0 948,0 948,154 930,154"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0099" orientation="1.15785558909127">
+            <pc:Coords points="933,200 948,200 948,218 933,218"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0100" orientation="1.15785558909127">
+            <pc:Coords points="918,222 948,222 948,315 918,315"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0101" orientation="1.15785558909127">
+            <pc:Coords points="928,398 948,398 948,515 928,515"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0102" orientation="1.15785558909127">
+            <pc:Coords points="928,509 948,509 948,595 928,595"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0103" orientation="1.15785558909127">
+            <pc:Coords points="936,1485 948,1485 948,1504 936,1504"/>
+        </pc:ImageRegion>
+        <pc:TableRegion id="region0044" orientation="1.15785558909127">
+            <pc:Coords points="29,1240 451,1240 451,1301 29,1301"/>
+            <pc:TextRegion id="region0044_cell0000" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="29,1240 451,1240 451,1301 29,1301"/>
+                <pc:TextLine id="region0044_cell0000_line0000">
+                    <pc:Coords points="29,1240 451,1240 451,1268 29,1268"/>
+                    <pc:TextEquiv conf="0.826875600025694">
+                        <pc:Unicode>A ai rird, et maintenant tai le quiuial..</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0044_cell0000_line0001">
+                    <pc:Coords points="46,1257 433,1257 433,1287 46,1287"/>
+                    <pc:TextEquiv conf="0.827568340941129">
+                        <pc:Unicode>on vient de pallier ie la piece auivare ,ninet dernier, ps</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0044_cell0000_line0002">
+                    <pc:Coords points="33,1269 447,1269 447,1301 33,1301"/>
+                    <pc:TextEquiv conf="0.609990698853675">
+                        <pc:Unicode>V e n as vreil urie, le Ir juler dier per</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0082" orientation="1.15785558909127">
+            <pc:Coords points="453,901 868,901 868,947 453,947"/>
+            <pc:TextRegion id="region0082_cell0000" orientation="1.15785558909127" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="453,901 868,901 868,947 453,947"/>
+                <pc:TextLine id="region0082_cell0000_line0000">
+                    <pc:Coords points="453,901 867,901 867,922 453,922"/>
+                    <pc:TextEquiv conf="0.775495954262123">
+                        <pc:Unicode>Ii la huile de lur rnhliement denil ecore in purto, elle n’en rtruit pr¬</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0082_cell0000_line0001">
+                    <pc:Coords points="466,913 868,913 868,935 466,935"/>
+                    <pc:TextEquiv conf="0.790371604567433">
+                        <pc:Unicode>Lu iee de ’tte vilu vient du prenlre des meupren ponrt updtr de¬</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0082_cell0000_line0002">
+                    <pc:Coords points="454,925 849,925 849,947 454,947"/>
+                    <pc:TextEquiv conf="0.79170028800107">
+                        <pc:Unicode>Aé ins d’enrdlar dans aus poris den colonirues pour les Ea-Epi¬</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:SeparatorRegion id="region0006">
+            <pc:Coords points="297,54 664,54 664,75 297,75"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0051">
+            <pc:Coords points="431,353 465,353 465,1479 431,1479"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0089">
+            <pc:Coords points="592,1274 749,1274 749,1288 592,1288"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0096">
+            <pc:Coords points="0,1512 948,1512 948,1559 0,1559"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0104">
+            <pc:Coords points="912,10 948,10 948,1540 912,1540"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>

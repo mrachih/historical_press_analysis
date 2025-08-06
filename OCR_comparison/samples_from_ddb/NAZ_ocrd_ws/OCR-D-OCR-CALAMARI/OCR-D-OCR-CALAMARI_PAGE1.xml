@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:PcGts xmlns:pc="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd" pcGtsId="OCR-D-OCR-CALAMARI_PAGE1">
+    <pc:Metadata>
+        <pc:Creator>OCR-D/core 3.3.2</pc:Creator>
+        <pc:Created>2025-06-27T20:07:16.721175</pc:Created>
+        <pc:LastChange>2025-06-27T20:07:16.721175</pc:LastChange>
+        <pc:MetadataItem type="processingStep" name="preprocessing/optimization/binarization" value="ocrd-olena-binarize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="page" type="level-of-operation"/>
+                <pc:Label value="sauvola-ms-split" type="impl"/>
+                <pc:Label value="0.34" type="k"/>
+                <pc:Label value="0" type="win-size"/>
+                <pc:Label value="0" type="dpi"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.0" type="ocrd-olena-binarize"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="layout/segmentation/region" value="ocrd-tesserocr-segment">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="0" type="dpi"/>
+                <pc:Label value="4" type="padding"/>
+                <pc:Label value="False" type="shrink_polygons"/>
+                <pc:Label value="False" type="block_polygons"/>
+                <pc:Label value="True" type="find_tables"/>
+                <pc:Label value="False" type="find_staves"/>
+                <pc:Label value="False" type="sparse_text"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="0.20.1" type="ocrd-tesserocr-segment"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+        <pc:MetadataItem type="processingStep" name="recognition/text-recognition" value="ocrd-calamari-recognize">
+            <pc:Labels externalModel="ocrd-tool" externalId="parameters">
+                <pc:Label value="historical_french" type="checkpoint_dir"/>
+                <pc:Label value="0" type="device"/>
+                <pc:Label value="confidence_voter_default_ctc" type="voter"/>
+                <pc:Label value="line" type="textequiv_level"/>
+                <pc:Label value="0.001" type="glyph_conf_cutoff"/>
+            </pc:Labels>
+            <pc:Labels externalModel="ocrd-tool" externalId="version">
+                <pc:Label value="2.0.1" type="ocrd-calamari-recognize"/>
+                <pc:Label value="3.3.2" type="ocrd/core"/>
+            </pc:Labels>
+        </pc:MetadataItem>
+    </pc:Metadata>
+    <pc:Page imageFilename="OCR-D-IMG/NAZ.jpeg" imageWidth="2400" imageHeight="3674">
+        <pc:AlternativeImage filename="OCR-D-BIN/OCR-D-BIN_PAGE1_.IMG-BIN.png" comments="binarized"/>
+        <pc:AlternativeImage filename="OCR-D-SEG/OCR-D-SEG_PAGE1_.IMG-BIN.png" comments="binarized,binarized,clipped"/>
+        <pc:ReadingOrder>
+            <pc:OrderedGroup id="reading-order">
+                <pc:RegionRefIndexed index="0" regionRef="region0000"/>
+                <pc:RegionRefIndexed index="1" regionRef="region0001"/>
+                <pc:RegionRefIndexed index="2" regionRef="region0002"/>
+                <pc:RegionRefIndexed index="3" regionRef="region0003"/>
+                <pc:OrderedGroupIndexed id="region0004_order" regionRef="region0004" index="4">
+                    <pc:RegionRefIndexed index="0" regionRef="region0004_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="5" regionRef="region0005"/>
+                <pc:RegionRefIndexed index="7" regionRef="region0007"/>
+                <pc:OrderedGroupIndexed id="region0008_order" regionRef="region0008" index="8">
+                    <pc:RegionRefIndexed index="0" regionRef="region0008_cell0000"/>
+                    <pc:RegionRefIndexed index="1" regionRef="region0008_cell0001"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="9" regionRef="region0009"/>
+                <pc:RegionRefIndexed index="10" regionRef="region0010"/>
+                <pc:RegionRefIndexed index="11" regionRef="region0011"/>
+                <pc:RegionRefIndexed index="12" regionRef="region0012"/>
+                <pc:OrderedGroupIndexed id="region0013_order" regionRef="region0013" index="13">
+                    <pc:RegionRefIndexed index="0" regionRef="region0013_cell0000"/>
+                    <pc:RegionRefIndexed index="1" regionRef="region0013_cell0001"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="14" regionRef="region0014"/>
+                <pc:RegionRefIndexed index="15" regionRef="region0015"/>
+                <pc:RegionRefIndexed index="16" regionRef="region0016"/>
+                <pc:RegionRefIndexed index="17" regionRef="region0017"/>
+                <pc:RegionRefIndexed index="18" regionRef="region0018"/>
+                <pc:RegionRefIndexed index="19" regionRef="region0019"/>
+                <pc:OrderedGroupIndexed id="region0022_order" regionRef="region0022" index="22">
+                    <pc:RegionRefIndexed index="0" regionRef="region0022_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="23" regionRef="region0023"/>
+                <pc:RegionRefIndexed index="24" regionRef="region0024"/>
+                <pc:OrderedGroupIndexed id="region0025_order" regionRef="region0025" index="25">
+                    <pc:RegionRefIndexed index="0" regionRef="region0025_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="26" regionRef="region0026"/>
+                <pc:OrderedGroupIndexed id="region0028_order" regionRef="region0028" index="28">
+                    <pc:RegionRefIndexed index="0" regionRef="region0028_cell0000"/>
+                    <pc:RegionRefIndexed index="1" regionRef="region0028_cell0001"/>
+                    <pc:RegionRefIndexed index="2" regionRef="region0028_cell0002"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="29" regionRef="region0029"/>
+                <pc:RegionRefIndexed index="30" regionRef="region0030"/>
+                <pc:OrderedGroupIndexed id="region0031_order" regionRef="region0031" index="31">
+                    <pc:RegionRefIndexed index="0" regionRef="region0031_cell0000"/>
+                    <pc:RegionRefIndexed index="1" regionRef="region0031_cell0001"/>
+                    <pc:RegionRefIndexed index="2" regionRef="region0031_cell0002"/>
+                    <pc:RegionRefIndexed index="3" regionRef="region0031_cell0003"/>
+                    <pc:RegionRefIndexed index="4" regionRef="region0031_cell0004"/>
+                    <pc:RegionRefIndexed index="5" regionRef="region0031_cell0005"/>
+                    <pc:RegionRefIndexed index="6" regionRef="region0031_cell0006"/>
+                    <pc:RegionRefIndexed index="7" regionRef="region0031_cell0007"/>
+                    <pc:RegionRefIndexed index="8" regionRef="region0031_cell0008"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="32" regionRef="region0032"/>
+                <pc:OrderedGroupIndexed id="region0036_order" regionRef="region0036" index="36">
+                    <pc:RegionRefIndexed index="0" regionRef="region0036_cell0000"/>
+                </pc:OrderedGroupIndexed>
+                <pc:RegionRefIndexed index="37" regionRef="region0037"/>
+                <pc:RegionRefIndexed index="38" regionRef="region0038"/>
+                <pc:RegionRefIndexed index="39" regionRef="region0039"/>
+                <pc:RegionRefIndexed index="40" regionRef="region0040"/>
+                <pc:RegionRefIndexed index="41" regionRef="region0041"/>
+                <pc:RegionRefIndexed index="42" regionRef="region0042"/>
+            </pc:OrderedGroup>
+        </pc:ReadingOrder>
+        <pc:TextRegion id="region0002" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="924,653 2080,653 2080,700 924,700"/>
+            <pc:TextLine id="region0002_line0000">
+                <pc:Coords points="998,654 2035,654 2035,681 998,681"/>
+                <pc:TextEquiv conf="0.613041046202471">
+                    <pc:Unicode>t a eetuſteaſe uuden tepmen mMa t tapee te Bdtunn ade vupſditto</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0002_line0001">
+                <pc:Coords points="924,653 2080,653 2080,700 924,700"/>
+                <pc:TextEquiv conf="0.605645963388815">
+                    <pc:Unicode>Set V, , ee iu e e llin lo iru</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>t a eetuſteaſe uuden tepmen mMa t tapee te Bdtunn ade vupſditto
+Set V, , ee iu e e llin lo iru</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0007" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="47,760 2290,760 2290,877 47,877"/>
+            <pc:TextLine id="region0007_line0000">
+                <pc:Coords points="47,760 2290,760 2290,799 47,799"/>
+                <pc:TextEquiv conf="0.0">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0007_line0001">
+                <pc:Coords points="67,791 2268,791 2268,851 67,851"/>
+                <pc:TextEquiv conf="0.817353516935788">
+                    <pc:Unicode>tr. A2. IB. Saltas ben I. Saltan) ſtr.2.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0007_line0002">
+                <pc:Coords points="49,843 2288,843 2288,877 49,877"/>
+                <pc:TextEquiv conf="0.0">
+                    <pc:Unicode></pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>
+tr. A2. IB. Saltas ben I. Saltan) ſtr.2.
+</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0009" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="63,979 1930,979 1930,1058 63,1058"/>
+            <pc:TextLine id="region0009_line0000">
+                <pc:Coords points="87,979 1776,979 1776,1013 87,1013"/>
+                <pc:TextEquiv conf="0.608366096782032">
+                    <pc:Unicode>SAEbOR . Sonuu, Entet Ie tlet itniferle vuuler Felt e van einſe ulele getonnue OtRnqn OIIRES l bij</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0009_line0001">
+                <pc:Coords points="63,980 1930,980 1930,1058 63,1058"/>
+                <pc:TextEquiv conf="0.460855879762151">
+                    <pc:Unicode>PE u s lal en due r u luiuads del ’audeteſ ae l nraeg eae e ei de l a eis da ges a l’lt ul au ldue ’atai le ire</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0009_line0002">
+                <pc:Coords points="95,1024 1790,1024 1790,1054 95,1054"/>
+                <pc:TextEquiv conf="0.727123330050789">
+                    <pc:Unicode>lounbe aniruoen: Suruten, ble eilhruu ben Gtut l ſelentmuun merbe pems eſeu von d’ unl iio, Dos lu l e Me l. Su ds uo putt bn bueeoe laurlden ( jolle</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>SAEbOR . Sonuu, Entet Ie tlet itniferle vuuler Felt e van einſe ulele getonnue OtRnqn OIIRES l bij
+PE u s lal en due r u luiuads del ’audeteſ ae l nraeg eae e ei de l a eis da ges a l’lt ul au ldue ’atai le ire
+lounbe aniruoen: Suruten, ble eilhruu ben Gtut l ſelentmuun merbe pems eſeu von d’ unl iio, Dos lu l e Me l. Su ds uo putt bn bueeoe laurlden ( jolle</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0010" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="110,1020 1726,1020 1726,1066 110,1066"/>
+            <pc:TextLine id="region0010_line0000">
+                <pc:Coords points="110,1020 1726,1020 1726,1066 110,1066"/>
+                <pc:TextEquiv conf="0.540407464626751">
+                    <pc:Unicode>tuet SAatontinr iſms, la ie ſiirs uil qſelpunmuiid dielel ount b&amp;l biuntl ladl out la l &amp; adil leil E E Ija lirt i luRrier Loluriein</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>tuet SAatontinr iſms, la ie ſiirs uil qſelpunmuiid dielel ount b&amp;l biuntl ladl out la l &amp; adil leil E E Ija lirt i luRrier Loluriein</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0011" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="53,1011 2290,1011 2290,1083 53,1083"/>
+            <pc:TextLine id="region0011_line0000">
+                <pc:Coords points="1944,1011 2290,1011 2290,1057 1944,1057"/>
+                <pc:TextEquiv conf="0.653213639180398">
+                    <pc:Unicode>r, de eruilonfiu urle oitri</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0011_line0001">
+                <pc:Coords points="256,1036 2055,1036 2055,1057 256,1057"/>
+                <pc:TextEquiv conf="0.777775593753986">
+                    <pc:Unicode>ſaeoue Ie bao &amp;ubhmoin omnitou nen l eepenunp nerbe gemun Uejep vom . yun? IlO, bo inlefohhen i n&amp; l’ n n luate veu vuruatuere vuuus venr j qollen. Demenjpredent c</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0011_line0002">
+                <pc:Coords points="53,1040 1157,1040 1157,1083 53,1083"/>
+                <pc:TextEquiv conf="0.455898783059885">
+                    <pc:Unicode>trefri v alderiairintiorte, da ver Souogiſinmmi lun bia l’iaitlſuns feinl is np age Ari ful dielieiſertdtrt, faopurtont</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>r, de eruilonfiu urle oitri
+ſaeoue Ie bao &amp;ubhmoin omnitou nen l eepenunp nerbe gemun Uejep vom . yun? IlO, bo inlefohhen i n&amp; l’ n n luate veu vuruatuere vuuus venr j qollen. Demenjpredent c
+trefri v alderiairintiorte, da ver Souogiſinmmi lun bia l’iaitlſuns feinl is np age Ari ful dielieiſertdtrt, faopurtont</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0012" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1756,1030 2291,1030 2291,1098 1756,1098"/>
+            <pc:TextLine id="region0012_line0000">
+                <pc:Coords points="1784,1030 2291,1030 2291,1059 1784,1059"/>
+                <pc:TextEquiv conf="0.729256568319148">
+                    <pc:Unicode>n. Deenprredes it au bas bieſlue nerol.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0012_line0001">
+                <pc:Coords points="1756,1032 2290,1032 2290,1098 1756,1098"/>
+                <pc:TextEquiv conf="0.399470155799519">
+                    <pc:Unicode>Paaiiu ie aiaſ iaer daeie mege mi filtre aegie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>n. Deenprredes it au bas bieſlue nerol.
+Paaiiu ie aiaſ iaer daeie mege mi filtre aegie</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0014" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="47,1141 1923,1141 1923,1216 47,1216"/>
+            <pc:TextLine id="region0014_line0000">
+                <pc:Coords points="47,1141 1859,1141 1859,1180 47,1180"/>
+                <pc:TextEquiv conf="0.73609098367399">
+                    <pc:Unicode>moſt oolnileis quor il our ben nioen, Pie al l iue, vetey os Ourenu ber Domi aun ble fopenolſti,l Det, PLluI IE Iet ſ ute ſ h Ra bon en I qtut,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0014_line0001">
+                <pc:Coords points="48,1141 1923,1141 1923,1216 48,1216"/>
+                <pc:TextEquiv conf="0.403020980048071">
+                    <pc:Unicode>Teatlei it edtue te ie feaulaeimaid de it l ieſs a ui e di i e e e de l aeiel er se eo gl l ea ’i e lin la b l lie e l’an oide E</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>moſt oolnileis quor il our ben nioen, Pie al l iue, vetey os Ourenu ber Domi aun ble fopenolſti,l Det, PLluI IE Iet ſ ute ſ h Ra bon en I qtut,
+Teatlei it edtue te ie feaulaeimaid de it l ieſs a ui e di i e e e de l aeiel er se eo gl l ea ’i e lin la b l lie e l’an oide E</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0015" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="47,1181 1880,1181 1880,1235 47,1235"/>
+            <pc:TextLine id="region0015_line0000">
+                <pc:Coords points="47,1181 1879,1181 1879,1214 47,1214"/>
+                <pc:TextEquiv conf="0.745970228506022">
+                    <pc:Unicode>rlren molle, meuer Hr ble uſolnb geouten Mis l jeqe ut bl pMl ll,e u uuu enen vuyonrouitl l Priſhens buteiſtr nur ensvneren vu rono ouue on j treliuoſhoeu</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0015_line0001">
+                <pc:Coords points="47,1187 1880,1187 1880,1235 47,1235"/>
+                <pc:TextEquiv conf="0.499984394700359">
+                    <pc:Unicode>iulrirge aarent ut meiter qernt aul ou fe miſdſilagrun l lili l oi niutaſtite</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>rlren molle, meuer Hr ble uſolnb geouten Mis l jeqe ut bl pMl ll,e u uuu enen vuyonrouitl l Priſhens buteiſtr nur ensvneren vu rono ouue on j treliuoſhoeu
+iulrirge aarent ut meiter qernt aul ou fe miſdſilagrun l lili l oi niutaſtite</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0016" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="47,1220 592,1220 592,1289 47,1289"/>
+            <pc:TextLine id="region0016_line0000">
+                <pc:Coords points="47,1220 592,1220 592,1250 47,1250"/>
+                <pc:TextEquiv conf="0.697016843119117">
+                    <pc:Unicode>Crtdil nomtete buraul jrili, boſ bleſer ounſtnn</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0016_line0001">
+                <pc:Coords points="48,1220 592,1220 592,1289 48,1289"/>
+                <pc:TextEquiv conf="0.420352445956733">
+                    <pc:Unicode>Pag a ue li aieſi i i e e ſer e i ie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>Crtdil nomtete buraul jrili, boſ bleſer ounſtnn
+Pag a ue li aieſi i i e e ſer e i ie</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0017" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1923,1166 2291,1166 2291,1211 1923,1211"/>
+            <pc:TextLine id="region0017_line0000">
+                <pc:Coords points="1923,1166 2291,1166 2291,1192 1923,1192"/>
+                <pc:TextEquiv conf="0.802699295928448">
+                    <pc:Unicode>e llberalen abler mun bie ſütiidt auj bie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0017_line0001">
+                <pc:Coords points="1924,1167 2290,1167 2290,1211 1924,1211"/>
+                <pc:TextEquiv conf="0.558907404314959">
+                    <pc:Unicode>u ſteaden ul le</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>e llberalen abler mun bie ſütiidt auj bie
+u ſteaden ul le</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0018" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="637,1202 2291,1202 2291,1247 637,1247"/>
+            <pc:TextLine id="region0018_line0000">
+                <pc:Coords points="2209,1203 2225,1203 2225,1220 2209,1220"/>
+                <pc:TextEquiv conf="0.804581344127655">
+                    <pc:Unicode>i</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0018_line0001">
+                <pc:Coords points="637,1202 2291,1202 2291,1247 637,1247"/>
+                <pc:TextEquiv conf="0.559713652205614">
+                    <pc:Unicode>is ien uenidun duiditoeil uermiſli cer lar Ee l, nanunus mn. ntxt-s t Le.... l’Eluy us a ptti ue le piniſ li l liſt lir</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>i
+is ien uenidun duiditoeil uermiſli cer lar Ee l, nanunus mn. ntxt-s t Le.... l’Eluy us a ptti ue le piniſ li l liſt lir</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0019" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="612,1218 2291,1218 2291,1296 612,1296"/>
+            <pc:TextLine id="region0019_line0000">
+                <pc:Coords points="621,1218 2281,1218 2281,1262 621,1262"/>
+                <pc:TextEquiv conf="0.532755577543157">
+                    <pc:Unicode>embele julen Alnrtn s aoitt us puruſildu &amp;rnotiqumnen l aat Mi pululize OPEREI’Ilu leMetPLEE RAtl ſa ii ſile ieiu, ni u liiuitleu ll, ſile ji</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0019_line0001">
+                <pc:Coords points="612,1229 2291,1229 2291,1296 612,1296"/>
+                <pc:TextEquiv conf="0.410064488982782">
+                    <pc:Unicode>Peut ai rea it de gume ue l ay a liſ ePe e l l l e ei e l Elui d es le te deteu e a die geue e ge ie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>embele julen Alnrtn s aoitt us puruſildu &amp;rnotiqumnen l aat Mi pululize OPEREI’Ilu leMetPLEE RAtl ſa ii ſile ieiu, ni u liiuitleu ll, ſile ji
+Peut ai rea it de gume ue l ay a liſ ePe e l l l e ei e l Elui d es le te deteu e a die geue e ge ie</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0023" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="48,1516 2304,1516 2304,1584 48,1584"/>
+            <pc:TextLine id="region0023_line0000">
+                <pc:Coords points="537,1516 2276,1516 2276,1551 537,1551"/>
+                <pc:TextEquiv conf="0.695029945782683">
+                    <pc:Unicode>ont, )ub bie Derefnieten at. ten uAl ee. inler i o n Monreren i ) vunt vunutn vavyqu vet vunte le e onboner eelunoen melben, hal ble &amp; ou?</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0023_line0001">
+                <pc:Coords points="48,1520 2304,1520 2304,1584 48,1584"/>
+                <pc:TextEquiv conf="0.440880186364335">
+                    <pc:Unicode>s a eP ilelir aumeibe li ildrain doiſ il i dlad ene ouie l ur geans lear es ueflei te maule lrualpue l a aeat ies d&amp; e l elMſt el li dl leale.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ont, )ub bie Derefnieten at. ten uAl ee. inler i o n Monreren i ) vunt vunutn vavyqu vet vunte le e onboner eelunoen melben, hal ble &amp; ou?
+s a eP ilelir aumeibe li ildrain doiſ il i dlad ene ouie l ur geans lear es ueflei te maule lrualpue l a aeat ies d&amp; e l elMſt el li dl leale.</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0024" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="48,1553 2291,1553 2291,1609 48,1609"/>
+            <pc:TextLine id="region0024_line0000">
+                <pc:Coords points="48,1553 2291,1553 2291,1609 48,1609"/>
+                <pc:TextEquiv conf="0.445592261167975">
+                    <pc:Unicode>’imi u oieurmiui ma ſl tes lilute dineaudi ieſei l’aunilgiun biui n uſ, ir i tiill ilſt li ur l l’s dad aelé, li Ait l ee dleu tet lai¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>’imi u oieurmiui ma ſl tes lilute dineaudi ieſei l’aunilgiun biui n uſ, ir i tiill ilſt li ur l l’s dad aelé, li Ait l ee dleu tet lai¬</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0026" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="48,1659 2292,1659 2292,1933 48,1933"/>
+            <pc:TextLine id="region0026_line0000">
+                <pc:Coords points="64,1659 2291,1659 2291,1696 64,1696"/>
+                <pc:TextEquiv conf="0.731676921580145">
+                    <pc:Unicode>anblroneeile habe ja dlerbinps ur Srill anlog ooen l pnomnent, me lpenlet er lſtump ſul uunueu iſoſſes l’ bibuniu uil ven, dnmno lunt ſeaez. uiler lobit ui, ben l oiubuuer lulſe er unlloen eluûſulone lilnt ſiuhielle</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0001">
+                <pc:Coords points="48,1661 2289,1661 2289,1723 48,1723"/>
+                <pc:TextEquiv conf="0.406793726305309">
+                    <pc:Unicode>baaen i dl e e rad de aeis dE ue i dide is lire l alidh adlen ei egegemtin r boriue lis auog da auiruon eſdeu s uitu ealui lei ie lair ue</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0002">
+                <pc:Coords points="48,1694 2049,1694 2049,1748 48,1748"/>
+                <pc:TextEquiv conf="0.43720128394873">
+                    <pc:Unicode>iſe ditmunimutel lueriu i loetel’aireiens lute ute l’ialſiaie lu d ies e riterge ue gale eldiei l ailieniueis i fiſi e l i oi it aus n eriuit ouitlue our.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0003">
+                <pc:Coords points="48,1740 2292,1740 2292,1804 48,1804"/>
+                <pc:TextEquiv conf="0.438537920287495">
+                    <pc:Unicode>ni tie aus maurau na me amn ana ua mua l’ai lgui luil ’ſia ehieie eiſi nueui ie e de l ſiradeoialb ao is ſe l del eot anr tet e l ieadi l reil aud l l garmnes lée pliſigeir i d duii ldouié</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0004">
+                <pc:Coords points="376,1771 2290,1771 2290,1822 376,1822"/>
+                <pc:TextEquiv conf="0.510382427663526">
+                    <pc:Unicode>lsadenng, eg pinl lueu iſſa u Eoidfiur eu ri ui l dolae fit eu l i ti ions iu lunier</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0005">
+                <pc:Coords points="78,1786 2290,1786 2290,1829 78,1829"/>
+                <pc:TextEquiv conf="0.525028495428989">
+                    <pc:Unicode>&amp;robr ſ , D e drlilounu ee qille l ’enotarſiaz die oirens</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0006">
+                <pc:Coords points="49,1798 2291,1798 2291,1860 49,1860"/>
+                <pc:TextEquiv conf="0.385001926619962">
+                    <pc:Unicode>prnuru ei d letu ieail a iu ’u ſl ouie l’et a eaearite ie aireritleirs geiaitae ve l loiul e il dlſieidieis e or ri ſu ain dili ier emo delas e eoes</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0007">
+                <pc:Coords points="55,1827 2288,1827 2288,1868 55,1868"/>
+                <pc:TextEquiv conf="0.632036106435268">
+                    <pc:Unicode>n l t e u ninil, moornt, u le ſil io toluenboer l i mu ape diauoin ier i auis Senpil qui ui, l qti r uuoneuaququlenun gunmen Gllerpeit</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0008">
+                <pc:Coords points="49,1839 1873,1839 1873,1904 49,1904"/>
+                <pc:TextEquiv conf="0.462602594726615">
+                    <pc:Unicode>eail t giaei i i gitibr e aidis ae dut l ludſs a e es i die atm e ae e lt e l’aliur les eiteleis or eil u derd ilr iries à l deroniait.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0026_line0009">
+                <pc:Coords points="49,1860 2290,1860 2290,1933 49,1933"/>
+                <pc:TextEquiv conf="0.393889296662349">
+                    <pc:Unicode>Pmie diae pg iu e ifies aite ſe d e urmed e o me e l’glilie ie itili e ilie eue ’ai e il l a a aeter uatiratdietn dt aitu ds as</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>anblroneeile habe ja dlerbinps ur Srill anlog ooen l pnomnent, me lpenlet er lſtump ſul uunueu iſoſſes l’ bibuniu uil ven, dnmno lunt ſeaez. uiler lobit ui, ben l oiubuuer lulſe er unlloen eluûſulone lilnt ſiuhielle
+baaen i dl e e rad de aeis dE ue i dide is lire l alidh adlen ei egegemtin r boriue lis auog da auiruon eſdeu s uitu ealui lei ie lair ue
+iſe ditmunimutel lueriu i loetel’aireiens lute ute l’ialſiaie lu d ies e riterge ue gale eldiei l ailieniueis i fiſi e l i oi it aus n eriuit ouitlue our.
+ni tie aus maurau na me amn ana ua mua l’ai lgui luil ’ſia ehieie eiſi nueui ie e de l ſiradeoialb ao is ſe l del eot anr tet e l ieadi l reil aud l l garmnes lée pliſigeir i d duii ldouié
+lsadenng, eg pinl lueu iſſa u Eoidfiur eu ri ui l dolae fit eu l i ti ions iu lunier
+&amp;robr ſ , D e drlilounu ee qille l ’enotarſiaz die oirens
+prnuru ei d letu ieail a iu ’u ſl ouie l’et a eaearite ie aireritleirs geiaitae ve l loiul e il dlſieidieis e or ri ſu ain dili ier emo delas e eoes
+n l t e u ninil, moornt, u le ſil io toluenboer l i mu ape diauoin ier i auis Senpil qui ui, l qti r uuoneuaququlenun gunmen Gllerpeit
+eail t giaei i i gitibr e aidis ae dut l ludſs a e es i die atm e ae e lt e l’aliur les eiteleis or eil u derd ilr iries à l deroniait.
+Pmie diae pg iu e ifies aite ſe d e urmed e o me e l’glilie ie itili e ilie eue ’ai e il l a a aeter uatiratdietn dt aitu ds as</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0029" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="47,1984 2292,1984 2292,2387 47,2387"/>
+            <pc:TextLine id="region0029_line0000">
+                <pc:Coords points="60,1984 2291,1984 2291,2028 60,2028"/>
+                <pc:TextEquiv conf="0.59865257941132">
+                    <pc:Unicode>iuroi, gfpoi von oer iriſl, ſuiſſes ur et uei deiunei l peern iuu lens Sier brin lufpllr lun r oia l pe aRl ines p cer lEſirs oe p uiMun giut la l pauſiſe o d l ſiiii</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0001">
+                <pc:Coords points="49,1999 2290,1999 2290,2061 49,2061"/>
+                <pc:TextEquiv conf="0.428047441394301">
+                    <pc:Unicode>ai d alu uions u’ giide l eue d li leue le e i l lalilaugel ea raeiſen geimrene e’ mr ier t l es</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0002">
+                <pc:Coords points="49,2028 2291,2028 2291,2070 49,2070"/>
+                <pc:TextEquiv conf="0.554287706317995">
+                    <pc:Unicode>ni, le onlilodes bues leldieliloniailamie r, &amp;ul , rotaeee en l aelſe qeſroort, luinter lener ſloltetiniſ vourue bus fenitſls l ua l, r tal le fibt, boſt teua, qultnue aul tngt jines</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0003">
+                <pc:Coords points="50,2048 2290,2048 2290,2097 50,2097"/>
+                <pc:TextEquiv conf="0.515015134045806">
+                    <pc:Unicode>guguumoer l leamtqubeub aus heue leie ledtride aoir lod heile ni l lenilute uur eridin une ſiſlien ſe aaeier le ie is</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0004">
+                <pc:Coords points="49,2066 2291,2066 2291,2120 49,2120"/>
+                <pc:TextEquiv conf="0.435868050561924">
+                    <pc:Unicode>Saiſie idis ius dui geſoit vds eiqg ius u ler l guaus ’reu e mo ou ere de ueadraes der n edranomu l oaus eu airilue re ladtaiſtiu lu ieaer f le, it l ’ei e au e r s on er e e i o de es ai la</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0005">
+                <pc:Coords points="48,2088 2291,2088 2291,2137 48,2137"/>
+                <pc:TextEquiv conf="0.471135256508698">
+                    <pc:Unicode>douile driu dei ſuiſ fir l eus uaory du l’huems ormmteie dqus ailr, Vuehnus gers l la a re dMabdntlde ilieirmunmlemre lrs l lu P gaie aurs, i ls ai i geimueurſe ie e id diri</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0006">
+                <pc:Coords points="50,2109 2291,2109 2291,2156 50,2156"/>
+                <pc:TextEquiv conf="0.558163990000399">
+                    <pc:Unicode>uinmtes ſier rt, lioeil en iir filitu ons l’ba mus. l, ue dormnne. a ’einenious lui lernleu, l uduimugeoiet o ſmmter gut neuer eſetſoeſtredire l iſe i ſuil uerli fil fiſ irilie à’uiaus e ile pintle uetvie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0007">
+                <pc:Coords points="49,2129 2291,2129 2291,2183 49,2183"/>
+                <pc:TextEquiv conf="0.449599134416485">
+                    <pc:Unicode>nenbeui quitelqgurmtui ilinu genron uno gtilt ie l amomnimit ’ut per duirterieut odp lian quaia lediu, l l ues l eou ſanmle etis dl drulernuſle liMte uſe l iatoue ualeorea dus uier vu dp uti n dſ ſient.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0008">
+                <pc:Coords points="48,2145 1926,2145 1926,2204 48,2204"/>
+                <pc:TextEquiv conf="0.397913535837962">
+                    <pc:Unicode>ieuieis, ei ſeraues daſiſou aieus eiriaitſi e l euemaui mompie, laieie dag aue Peilte e da di l faiu il fil lu d her ioſs rm de eu i ieiee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0009">
+                <pc:Coords points="49,2169 2292,2169 2292,2219 49,2219"/>
+                <pc:TextEquiv conf="0.527543940173144">
+                    <pc:Unicode>Suiitiiient idinge ni muil ſe l alruru lumudaui deuil ub diftlee nis eule bueralmele l fltreier gu fetne a don agrbdlden bu aediéemt mnile l ur Gaul, lonurer foatenuntngtommntenis ub, neuen ter</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0010">
+                <pc:Coords points="49,2190 2292,2190 2292,2243 49,2243"/>
+                <pc:TextEquiv conf="0.450387681044909">
+                    <pc:Unicode>Pmaipiu iſirpumut A ie lumtil el Ri ile l ſul dilone bEirlup, l lle t aitr oder leen loadodre noar r lsſemnrſeiter l’ati oiu auine quetdl foeat crorſt é l l e dt rui à iſ I al à il</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0011">
+                <pc:Coords points="50,2207 2292,2207 2292,2264 50,2264"/>
+                <pc:TextEquiv conf="0.428096026934926">
+                    <pc:Unicode>Pdi ei e iſieſerae me e ſe adier ulrns ver Poutes l auſiuier ede uodgrmlenu ailtunei aduluelleoues d ieige laul friaimesdior i euiemna l orelblotiqhaue fi tutin l g ral uitis d oel dis l l ilode ge e mo l il lan ſe?e,</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0012">
+                <pc:Coords points="49,2227 2292,2227 2292,2287 49,2287"/>
+                <pc:TextEquiv conf="0.464235806350847">
+                    <pc:Unicode>inr haumun t omaun l’aieugede let ’es las ea aeigie emiopabigie l ul buaauiut erie ais ae leilous ſutilie ſi ſi ei l’ur dlebldial tes leniamoie ilua ee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0013">
+                <pc:Coords points="115,2258 2290,2258 2290,2305 115,2305"/>
+                <pc:TextEquiv conf="0.610199237407548">
+                    <pc:Unicode>ou aun tn duntopt ceni, ſilnle l l ilur i Ai agrinaereun iſlur ui i lintrus le lle l unmde ael ieotludliae ’mtis mul daltndez, &amp; la fous</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0014">
+                <pc:Coords points="82,2268 2292,2268 2292,2325 82,2325"/>
+                <pc:TextEquiv conf="0.36065478577612">
+                    <pc:Unicode>d’aa i t uonggue a e oie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0015">
+                <pc:Coords points="48,2286 2286,2286 2286,2348 48,2348"/>
+                <pc:TextEquiv conf="0.377242007788048">
+                    <pc:Unicode>ans ai iſl mdaise oni ſeur lere eouien itiueue l au bere iaralt e al iroes mginiq e i imadaun l hos es iri iemois liu gi aeau il del rel imr ues uaeis m e aoie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0016">
+                <pc:Coords points="49,2304 2292,2304 2292,2369 49,2369"/>
+                <pc:TextEquiv conf="0.368563058505044">
+                    <pc:Unicode>cei ri i au a ds deiaroair rainu ities ae eaem lie oededt bieur euſl ie fieier e l loe e oe demuei i e ir degrimie ualereaeil l ilſ ne ue raiue a naer e er n ui mle leie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0029_line0017">
+                <pc:Coords points="47,2339 2292,2339 2292,2387 47,2387"/>
+                <pc:TextEquiv conf="0.49070920123897">
+                    <pc:Unicode>er reiſielie dis eie diil ler, l uiie al rſ riggriſel bet pueraie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>iuroi, gfpoi von oer iriſl, ſuiſſes ur et uei deiunei l peern iuu lens Sier brin lufpllr lun r oia l pe aRl ines p cer lEſirs oe p uiMun giut la l pauſiſe o d l ſiiii
+ai d alu uions u’ giide l eue d li leue le e i l lalilaugel ea raeiſen geimrene e’ mr ier t l es
+ni, le onlilodes bues leldieliloniailamie r, &amp;ul , rotaeee en l aelſe qeſroort, luinter lener ſloltetiniſ vourue bus fenitſls l ua l, r tal le fibt, boſt teua, qultnue aul tngt jines
+guguumoer l leamtqubeub aus heue leie ledtride aoir lod heile ni l lenilute uur eridin une ſiſlien ſe aaeier le ie is
+Saiſie idis ius dui geſoit vds eiqg ius u ler l guaus ’reu e mo ou ere de ueadraes der n edranomu l oaus eu airilue re ladtaiſtiu lu ieaer f le, it l ’ei e au e r s on er e e i o de es ai la
+douile driu dei ſuiſ fir l eus uaory du l’huems ormmteie dqus ailr, Vuehnus gers l la a re dMabdntlde ilieirmunmlemre lrs l lu P gaie aurs, i ls ai i geimueurſe ie e id diri
+uinmtes ſier rt, lioeil en iir filitu ons l’ba mus. l, ue dormnne. a ’einenious lui lernleu, l uduimugeoiet o ſmmter gut neuer eſetſoeſtredire l iſe i ſuil uerli fil fiſ irilie à’uiaus e ile pintle uetvie
+nenbeui quitelqgurmtui ilinu genron uno gtilt ie l amomnimit ’ut per duirterieut odp lian quaia lediu, l l ues l eou ſanmle etis dl drulernuſle liMte uſe l iatoue ualeorea dus uier vu dp uti n dſ ſient.
+ieuieis, ei ſeraues daſiſou aieus eiriaitſi e l euemaui mompie, laieie dag aue Peilte e da di l faiu il fil lu d her ioſs rm de eu i ieiee
+Suiitiiient idinge ni muil ſe l alruru lumudaui deuil ub diftlee nis eule bueralmele l fltreier gu fetne a don agrbdlden bu aediéemt mnile l ur Gaul, lonurer foatenuntngtommntenis ub, neuen ter
+Pmaipiu iſirpumut A ie lumtil el Ri ile l ſul dilone bEirlup, l lle t aitr oder leen loadodre noar r lsſemnrſeiter l’ati oiu auine quetdl foeat crorſt é l l e dt rui à iſ I al à il
+Pdi ei e iſieſerae me e ſe adier ulrns ver Poutes l auſiuier ede uodgrmlenu ailtunei aduluelleoues d ieige laul friaimesdior i euiemna l orelblotiqhaue fi tutin l g ral uitis d oel dis l l ilode ge e mo l il lan ſe?e,
+inr haumun t omaun l’aieugede let ’es las ea aeigie emiopabigie l ul buaauiut erie ais ae leilous ſutilie ſi ſi ei l’ur dlebldial tes leniamoie ilua ee
+ou aun tn duntopt ceni, ſilnle l l ilur i Ai agrinaereun iſlur ui i lintrus le lle l unmde ael ieotludliae ’mtis mul daltndez, &amp; la fous
+d’aa i t uonggue a e oie
+ans ai iſl mdaise oni ſeur lere eouien itiueue l au bere iaralt e al iroes mginiq e i imadaun l hos es iri iemois liu gi aeau il del rel imr ues uaeis m e aoie
+cei ri i au a ds deiaroair rainu ities ae eaem lie oededt bieur euſl ie fieier e l loe e oe demuei i e ir degrimie ualereaeil l ilſ ne ue raiue a naer e er n ui mle leie
+er reiſielie dis eie diil ler, l uiie al rſ riggriſel bet pueraie</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0032" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="43,2519 2292,2519 2292,3087 43,3087"/>
+            <pc:TextLine id="region0032_line0000">
+                <pc:Coords points="64,2519 2147,2519 2147,2556 64,2556"/>
+                <pc:TextEquiv conf="0.696000375775162">
+                    <pc:Unicode>ben oihe, Oun ethe eu lniflgen, bie Rbinquns ber l tofeſol r r Aetriorme eiouuen buis l leleilli; orounildorl tnu- nlſdttenb’ Hul er aud ler fids j bl’ Mle lerlamteis purienſen.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0001">
+                <pc:Coords points="46,2519 2292,2519 2292,2595 46,2595"/>
+                <pc:TextEquiv conf="0.397711466606229">
+                    <pc:Unicode>Peibai ie aie lieie e eapiers e ei e e l e li ae ele ue e rie ae aeas u ze uea</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0002">
+                <pc:Coords points="46,2555 2290,2555 2290,2618 46,2618"/>
+                <pc:TextEquiv conf="0.420843629929359">
+                    <pc:Unicode>iui e ait pali u uitaie s ſe ’ei er eae ri deb aue iu aiſ i dis ie ei au daes el l uoruil e e legeul e lildeal e e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0003">
+                <pc:Coords points="45,2578 2275,2578 2275,2631 45,2631"/>
+                <pc:TextEquiv conf="0.501240624327556">
+                    <pc:Unicode>il ei it i ſei iieus doi e ſaipiſe mirde oui ir lir ſrinueipe, ſeu ius dus e le is liſitinus ſ l leis ir ulpieſdrliſie uſadi duis qulteau il</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0004">
+                <pc:Coords points="46,2598 2291,2598 2291,2650 46,2650"/>
+                <pc:TextEquiv conf="0.528791933558315">
+                    <pc:Unicode>ui ſerias unr Sibre nie de ai oa gmuns l’Piſſeiemn i iſ ilamnſl fis dir per ſulunrſletſirins l lafileit Iilt as us prirlduie dilie li ſolnie fes l ihula el dis laliet t re ou aranl ealues ’es pieaſt ge as</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0005">
+                <pc:Coords points="46,2619 2292,2619 2292,2669 46,2669"/>
+                <pc:TextEquiv conf="0.573836800325529">
+                    <pc:Unicode>uu nii aſit ſA en pn binode eduplm l’idis ſiriaioi auil, ber nMriluirloen dréſin dviſier ljeiſonmitesz il,vnen, e druiti, erlodeie dRe l’u elle lſitretdtelt eoingit ne e eindludrmut es bote</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0006">
+                <pc:Coords points="57,2639 2291,2639 2291,2687 57,2687"/>
+                <pc:TextEquiv conf="0.476456538322883">
+                    <pc:Unicode>. N eat er ’il e P V lt len beimais dpliade l Hmggneieos n eeſſ eti puiler tus ou l ifuſdri emudaſl’illuſtit oera endſen ’ptnenlidée</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0007">
+                <pc:Coords points="45,2659 2292,2659 2292,2705 45,2705"/>
+                <pc:TextEquiv conf="0.474088387970115">
+                    <pc:Unicode>bde felaiiiei aſſien jenor uia, feſei lena laaeMn l ſ eſd toi ſ llI t au a l’u e i ilens s a l Soieiie ſuſris aius Fil rſle a leEe</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0008">
+                <pc:Coords points="45,2679 2292,2679 2292,2730 45,2730"/>
+                <pc:TextEquiv conf="0.526458741507484">
+                    <pc:Unicode>duin Puitil ur oſuiq or plifriy i lie ’ l ei l pr ſiuis lu ilonuil tqi P y jaſa, ſai lor , ai l li ſimue uerſeun adite oituend uerit iurel liue reulie, l ſiuts letſ eiuraur fidrſ te faus l gie ſiſ qi l lſe</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0009">
+                <pc:Coords points="45,2699 2291,2699 2291,2749 45,2749"/>
+                <pc:TextEquiv conf="0.541572604936522">
+                    <pc:Unicode>iſ dM? i uuP il ſi Te du l . ſGi ſeiti fi l ran jTie pe re nel e Ee ei ſi l li le ſe pe beitlin euiteus daisadieniu duienr mui l lanlt aeſtl ſatan i li faſt b h lMba tal ouz lautir d de</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0010">
+                <pc:Coords points="45,2715 2291,2715 2291,2776 45,2776"/>
+                <pc:TextEquiv conf="0.494727301697852">
+                    <pc:Unicode>’iii i il aiudl pel ie ſrl flifet étntmimer lis l e lair le diei ’ou bs S ’il eſdleiesl te l’atorudidiuil aue biy ſa a tei lordueus as l ’aul ei e me ei u uisindeéaes a fir do oasuoe</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0011">
+                <pc:Coords points="62,2733 2291,2733 2291,2793 62,2793"/>
+                <pc:TextEquiv conf="0.409091664009072">
+                    <pc:Unicode>anmndis d tn ailis ie ae e ſé ar e dgep ri it reai rie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0012">
+                <pc:Coords points="64,2760 2291,2760 2291,2814 64,2814"/>
+                <pc:TextEquiv conf="0.484298184339333">
+                    <pc:Unicode>neaa t. , a ain uur et a mns r JRa eir uie El i d ie a uit eeiuiseiſetumin u s uireul pers eit luiod uis bit ait l’arntesait tha ei i ei uſgel leil a&amp; lu aſdids</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0013">
+                <pc:Coords points="85,2772 2291,2772 2291,2832 85,2832"/>
+                <pc:TextEquiv conf="0.484481180469329">
+                    <pc:Unicode>Pn le a e l lihrarz feu aeran reſtm eln ar nauce auimons ates toutrtet l’as detltdes aial di oil il euamde l agiedgeis e ebeil bauſlſugeie de elbial</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0014">
+                <pc:Coords points="95,2795 2291,2795 2291,2849 95,2849"/>
+                <pc:TextEquiv conf="0.538832172883614">
+                    <pc:Unicode>al l lnialmiſtles iiue l e our luuli mioueminous pe la e r ler y l leu durme due dltune l lel oin l iEe Saidiſ dur dema itiadt etie tue noatra, l’ liſdoins</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0015">
+                <pc:Coords points="45,2812 2291,2812 2291,2862 45,2862"/>
+                <pc:TextEquiv conf="0.49709638270029">
+                    <pc:Unicode>t li j eul lune l leb tet l ae atite e ea fieritdtsedur laemne e e iluele li tilolre</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0016">
+                <pc:Coords points="44,2828 2291,2828 2291,2885 44,2885"/>
+                <pc:TextEquiv conf="0.480800819169893">
+                    <pc:Unicode>Pjes ’iuien iu ſil di p’aies la jlai l letili e le uau el in liſlle l es falueil d lulain iaie ſl iu leſa lie le enurez, l ’Etlae ie ei p lorſte ut i mns R pRilſit e</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0017">
+                <pc:Coords points="44,2853 1907,2853 1907,2904 44,2904"/>
+                <pc:TextEquiv conf="0.562969061260339">
+                    <pc:Unicode>Jp dlel leie vpiepiſpiena u liefiouer ſifeul lar e l Mu e l l’ella a ’u l ſn a n tel Plan lgartat lir le ahugrnadl éedaouſiure Eaui irit</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0018">
+                <pc:Coords points="59,2875 2290,2875 2290,2928 59,2928"/>
+                <pc:TextEquiv conf="0.493815723249054">
+                    <pc:Unicode>egeſi nu diel  i unirigeu oue e et euiſlis laul u in ranerIne IllIn NlanmERIFEINeJ libeirtiaſt uA ueus aoinidt oen iltuil del tſt fafidl de l..ſtiursamiux l ſMarin bi luiſiens lu&amp;ſſiſil lens</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0019">
+                <pc:Coords points="72,2894 2290,2894 2290,2949 72,2949"/>
+                <pc:TextEquiv conf="0.455129714819982">
+                    <pc:Unicode>ltgu iuſirſ ſitinin lie l paſtit ueiu aeudies</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0020">
+                <pc:Coords points="61,2915 2291,2915 2291,2969 61,2969"/>
+                <pc:TextEquiv conf="0.473852017038487">
+                    <pc:Unicode>ue el ni mie er ſlqu ilſaſule Eeſ dlei l s e CR EAREIE INEGRanRe uſl ai us bil ltes l l qoutrnf dtondi i omngrſdil lur foairi lus TRaoue lll,Eeie mali eus diamd e er is e n ou tfias laiee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0021">
+                <pc:Coords points="44,2934 2291,2934 2291,2987 44,2987"/>
+                <pc:TextEquiv conf="0.499511982970964">
+                    <pc:Unicode>dpi jet imipiai le l Ii l i lear A itr a laifail il lſiais ſe ail lil le bMilse de l auide s la aitoul lomt dli uanern oig mil, amtioue l’lt laraſidſe iatere iegu auai ites doorlt a&amp;</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0022">
+                <pc:Coords points="44,2954 2291,2954 2291,3010 44,3010"/>
+                <pc:TextEquiv conf="0.44993526347292">
+                    <pc:Unicode>JeSaililiſ ſei i i li in ſlſiaſié a iaus lai ide l’aeaoe ’ae Erege aileis le lde lil ſu lil le lase lal e ir iſtn dae ailn ler r e a iaudis l aiu d&amp; aradaealaen Pau dradis, aond de. i</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0023">
+                <pc:Coords points="44,2975 2291,2975 2291,3031 44,3031"/>
+                <pc:TextEquiv conf="0.372260533056347">
+                    <pc:Unicode>e’eadu g nid en e ii e ſe imou de l efre ge e i ni amuiM niit Eaiett d eſ l piu ua l mu ſe uriſ ione lutr uemoue aima eet l l ieaear e e iimma gigis dilalal, lrigies, deal</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0024">
+                <pc:Coords points="43,2990 2290,2990 2290,3043 43,3043"/>
+                <pc:TextEquiv conf="0.44263375987897">
+                    <pc:Unicode>ie merpie ſſai e Fe leiſt eie ie le ditidur eaierue l ſe l’aœe ſilde E ahptſeei, fa ea magir e L il dgedeil l arnt is ſi ſitur iuris lifus ſeiro imi i laifi, l eaitrur ae ael ouet doiatrl ou ie l aillrugrues doit</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0025">
+                <pc:Coords points="43,3015 2290,3015 2290,3081 43,3081"/>
+                <pc:TextEquiv conf="0.43128484428832">
+                    <pc:Unicode>Pa ae gimg tmei aiahſi deibons aus ie e l alt e deE n t iſul, me et e, fare l’a aiaile e l e ae ae</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0026">
+                <pc:Coords points="449,3043 1996,3043 1996,3071 449,3071"/>
+                <pc:TextEquiv conf="0.67435541245227">
+                    <pc:Unicode>n be b. MumMe ſſce bul, Pure oo dfe. rr. lAlemers umlnit Ra delo uy or meruneie ie l l riljunolommlſon Sorliéne.</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0032_line0027">
+                <pc:Coords points="84,3038 1984,3038 1984,3087 84,3087"/>
+                <pc:TextEquiv conf="0.522395459463013">
+                    <pc:Unicode>Adins eu ſinnt, fni fiſlſt qunolius pens oi in l peil ues et fi &amp;t au i, neſlit, pioſe l jiemutr lol l ’rahurioilimrudmn imie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>ben oihe, Oun ethe eu lniflgen, bie Rbinquns ber l tofeſol r r Aetriorme eiouuen buis l leleilli; orounildorl tnu- nlſdttenb’ Hul er aud ler fids j bl’ Mle lerlamteis purienſen.
+Peibai ie aie lieie e eapiers e ei e e l e li ae ele ue e rie ae aeas u ze uea
+iui e ait pali u uitaie s ſe ’ei er eae ri deb aue iu aiſ i dis ie ei au daes el l uoruil e e legeul e lildeal e e
+il ei it i ſei iieus doi e ſaipiſe mirde oui ir lir ſrinueipe, ſeu ius dus e le is liſitinus ſ l leis ir ulpieſdrliſie uſadi duis qulteau il
+ui ſerias unr Sibre nie de ai oa gmuns l’Piſſeiemn i iſ ilamnſl fis dir per ſulunrſletſirins l lafileit Iilt as us prirlduie dilie li ſolnie fes l ihula el dis laliet t re ou aranl ealues ’es pieaſt ge as
+uu nii aſit ſA en pn binode eduplm l’idis ſiriaioi auil, ber nMriluirloen dréſin dviſier ljeiſonmitesz il,vnen, e druiti, erlodeie dRe l’u elle lſitretdtelt eoingit ne e eindludrmut es bote
+. N eat er ’il e P V lt len beimais dpliade l Hmggneieos n eeſſ eti puiler tus ou l ifuſdri emudaſl’illuſtit oera endſen ’ptnenlidée
+bde felaiiiei aſſien jenor uia, feſei lena laaeMn l ſ eſd toi ſ llI t au a l’u e i ilens s a l Soieiie ſuſris aius Fil rſle a leEe
+duin Puitil ur oſuiq or plifriy i lie ’ l ei l pr ſiuis lu ilonuil tqi P y jaſa, ſai lor , ai l li ſimue uerſeun adite oituend uerit iurel liue reulie, l ſiuts letſ eiuraur fidrſ te faus l gie ſiſ qi l lſe
+iſ dM? i uuP il ſi Te du l . ſGi ſeiti fi l ran jTie pe re nel e Ee ei ſi l li le ſe pe beitlin euiteus daisadieniu duienr mui l lanlt aeſtl ſatan i li faſt b h lMba tal ouz lautir d de
+’iii i il aiudl pel ie ſrl flifet étntmimer lis l e lair le diei ’ou bs S ’il eſdleiesl te l’atorudidiuil aue biy ſa a tei lordueus as l ’aul ei e me ei u uisindeéaes a fir do oasuoe
+anmndis d tn ailis ie ae e ſé ar e dgep ri it reai rie
+neaa t. , a ain uur et a mns r JRa eir uie El i d ie a uit eeiuiseiſetumin u s uireul pers eit luiod uis bit ait l’arntesait tha ei i ei uſgel leil a&amp; lu aſdids
+Pn le a e l lihrarz feu aeran reſtm eln ar nauce auimons ates toutrtet l’as detltdes aial di oil il euamde l agiedgeis e ebeil bauſlſugeie de elbial
+al l lnialmiſtles iiue l e our luuli mioueminous pe la e r ler y l leu durme due dltune l lel oin l iEe Saidiſ dur dema itiadt etie tue noatra, l’ liſdoins
+t li j eul lune l leb tet l ae atite e ea fieritdtsedur laemne e e iluele li tilolre
+Pjes ’iuien iu ſil di p’aies la jlai l letili e le uau el in liſlle l es falueil d lulain iaie ſl iu leſa lie le enurez, l ’Etlae ie ei p lorſte ut i mns R pRilſit e
+Jp dlel leie vpiepiſpiena u liefiouer ſifeul lar e l Mu e l l’ella a ’u l ſn a n tel Plan lgartat lir le ahugrnadl éedaouſiure Eaui irit
+egeſi nu diel  i unirigeu oue e et euiſlis laul u in ranerIne IllIn NlanmERIFEINeJ libeirtiaſt uA ueus aoinidt oen iltuil del tſt fafidl de l..ſtiursamiux l ſMarin bi luiſiens lu&amp;ſſiſil lens
+ltgu iuſirſ ſitinin lie l paſtit ueiu aeudies
+ue el ni mie er ſlqu ilſaſule Eeſ dlei l s e CR EAREIE INEGRanRe uſl ai us bil ltes l l qoutrnf dtondi i omngrſdil lur foairi lus TRaoue lll,Eeie mali eus diamd e er is e n ou tfias laiee
+dpi jet imipiai le l Ii l i lear A itr a laifail il lſiais ſe ail lil le bMilse de l auide s la aitoul lomt dli uanern oig mil, amtioue l’lt laraſidſe iatere iegu auai ites doorlt a&amp;
+JeSaililiſ ſei i i li in ſlſiaſié a iaus lai ide l’aeaoe ’ae Erege aileis le lde lil ſu lil le lase lal e ir iſtn dae ailn ler r e a iaudis l aiu d&amp; aradaealaen Pau dradis, aond de. i
+e’eadu g nid en e ii e ſe imou de l efre ge e i ni amuiM niit Eaiett d eſ l piu ua l mu ſe uriſ ione lutr uemoue aima eet l l ieaear e e iimma gigis dilalal, lrigies, deal
+ie merpie ſſai e Fe leiſt eie ie le ditidur eaierue l ſe l’aœe ſilde E ahptſeei, fa ea magir e L il dgedeil l arnt is ſi ſitur iuris lifus ſeiro imi i laifi, l eaitrur ae ael ouet doiatrl ou ie l aillrugrues doit
+Pa ae gimg tmei aiahſi deibons aus ie e l alt e deE n t iſul, me et e, fare l’a aiaile e l e ae ae
+n be b. MumMe ſſce bul, Pure oo dfe. rr. lAlemers umlnit Ra delo uy or meruneie ie l l riljunolommlſon Sorliéne.
+Adins eu ſinnt, fni fiſlſt qunolius pens oi in l peil ues et fi &amp;t au i, neſlit, pioſe l jiemutr lol l ’rahurioilimrudmn imie</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0037" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="42,3196 2289,3196 2289,3298 42,3298"/>
+            <pc:TextLine id="region0037_line0000">
+                <pc:Coords points="1409,3196 1422,3196 1422,3220 1409,3220"/>
+                <pc:TextEquiv conf="0.370002427448829">
+                    <pc:Unicode>l</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0001">
+                <pc:Coords points="42,3210 2282,3210 2282,3245 42,3245"/>
+                <pc:TextEquiv conf="0.750456712862193">
+                    <pc:Unicode>duen lnlo j o an ln gerdõle ul Der l’DNllMaiet uitogure, br l ble l llien, hau Puonint br Sertnlqui, e ſſitier, un, il</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0037_line0002">
+                <pc:Coords points="42,3211 2289,3211 2289,3298 42,3298"/>
+                <pc:TextEquiv conf="0.387136992376246">
+                    <pc:Unicode>PE E a e e d s e e e e eu eeE Ceae las fe e erez e lerte el aerae ea e e a le</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>l
+duen lnlo j o an ln gerdõle ul Der l’DNllMaiet uitogure, br l ble l llien, hau Puonint br Sertnlqui, e ſſitier, un, il
+PE E a e e d s e e e e eu eeE Ceae las fe e erez e lerte el aerae ea e e a le</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0038" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="39,3251 2400,3251 2400,3448 39,3448"/>
+            <pc:TextLine id="region0038_line0000">
+                <pc:Coords points="42,3251 2289,3251 2289,3286 42,3286"/>
+                <pc:TextEquiv conf="0.711575236046119">
+                    <pc:Unicode>n l ibruur peudri hobe, oiſſen leſen, bud l miene ebleſ ndemils etoutbbeoent utreſeinluun l rr hr fieni etbt dileoun uoun ſo l &amp;lorlu ſe</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0001">
+                <pc:Coords points="41,3252 2288,3252 2288,3320 41,3320"/>
+                <pc:TextEquiv conf="0.398942103051385">
+                    <pc:Unicode>aete ii ai i pu l’auitna lid iiida s eee ares Ri ui ut ue l lgiu le e eit e i dl l u ie</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0002">
+                <pc:Coords points="56,3291 2289,3291 2289,3340 56,3340"/>
+                <pc:TextEquiv conf="0.495625758651199">
+                    <pc:Unicode>ſ niperuiiue s pi filbn ei, liien diſair aſi l artras dE IP’e i. lr, Rn . D ln l et Sui l liel iſt inſd duer dnt f’aier laiét aeinres le oititinis l as ſelte i deleue ei ee</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0003">
+                <pc:Coords points="47,3312 2288,3312 2288,3356 47,3356"/>
+                <pc:TextEquiv conf="0.612636939159141">
+                    <pc:Unicode>eln indien &amp;euudfer Pen dauuinſirlun iſſo ſdſiut lſi ſe, birviiler Pfit fi e ſplili muir a n l’elidil uta ui vor ant edlenden Truter der ar fies l’il t P’i aitues len ldin dillerifetl, ionget vir ai</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0004">
+                <pc:Coords points="47,3332 2289,3332 2289,3383 47,3383"/>
+                <pc:TextEquiv conf="0.532692753995255">
+                    <pc:Unicode>Eiu urun mE fini lſiuſ ini idues Eris iei uil’eoſi l ſl le lin, drii le,iITomrons iTia i ſserne, du l eſrſg erleiaeunz lailianmns lan me l’i lleuuu eu ſſ lis d liuil d ddt beint du</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0005">
+                <pc:Coords points="40,3352 2198,3352 2198,3402 40,3402"/>
+                <pc:TextEquiv conf="0.559004282419836">
+                    <pc:Unicode>eaeunt aſoi ſs ſult u liaptvue l aein l e l rH p Fe i li inumen le n ui laie erſileanunuul i diuiitns l aidlul laimpEin nuili ilt at tnt l</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0006">
+                <pc:Coords points="39,3357 2289,3357 2289,3428 39,3428"/>
+                <pc:TextEquiv conf="0.524490938554618">
+                    <pc:Unicode>’uieié ir dfair Re l d i a lil datns l’enlefaeuitdt gegu ſe trlutg adtreue</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0007">
+                <pc:Coords points="40,3389 2400,3389 2400,3446 40,3446"/>
+                <pc:TextEquiv conf="0.478655813894037">
+                    <pc:Unicode>emne uz uer Ei S Fs Pſmdu me dea l ldeé ’ar n lail li laie bes e i</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextLine id="region0038_line0008">
+                <pc:Coords points="90,3408 2400,3408 2400,3448 90,3448"/>
+                <pc:TextEquiv conf="0.710450499101903">
+                    <pc:Unicode>nis qu ltin le Druns ru ur Pruz IquuuVLEEv.u.. - oi unel neur i n uoe! Per en</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>n l ibruur peudri hobe, oiſſen leſen, bud l miene ebleſ ndemils etoutbbeoent utreſeinluun l rr hr fieni etbt dileoun uoun ſo l &amp;lorlu ſe
+aete ii ai i pu l’auitna lid iiida s eee ares Ri ui ut ue l lgiu le e eit e i dl l u ie
+ſ niperuiiue s pi filbn ei, liien diſair aſi l artras dE IP’e i. lr, Rn . D ln l et Sui l liel iſt inſd duer dnt f’aier laiét aeinres le oititinis l as ſelte i deleue ei ee
+eln indien &amp;euudfer Pen dauuinſirlun iſſo ſdſiut lſi ſe, birviiler Pfit fi e ſplili muir a n l’elidil uta ui vor ant edlenden Truter der ar fies l’il t P’i aitues len ldin dillerifetl, ionget vir ai
+Eiu urun mE fini lſiuſ ini idues Eris iei uil’eoſi l ſl le lin, drii le,iITomrons iTia i ſserne, du l eſrſg erleiaeunz lailianmns lan me l’i lleuuu eu ſſ lis d liuil d ddt beint du
+eaeunt aſoi ſs ſult u liaptvue l aein l e l rH p Fe i li inumen le n ui laie erſileanunuul i diuiitns l aidlul laimpEin nuili ilt at tnt l
+’uieié ir dfair Re l d i a lil datns l’enlefaeuitdt gegu ſe trlutg adtreue
+emne uz uer Ei S Fs Pſmdu me dea l ldeé ’ar n lail li laie bes e i
+nis qu ltin le Druns ru ur Pruz IquuuVLEEv.u.. - oi unel neur i n uoe! Per en</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0039" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="1415,3190 2289,3190 2289,3303 1415,3303"/>
+            <pc:TextLine id="region0039_line0000">
+                <pc:Coords points="1415,3190 2289,3190 2289,3303 1415,3303"/>
+                <pc:TextEquiv conf="0.369303699827993">
+                    <pc:Unicode>d’E ſ e l l g eile</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>d’E ſ e l l g eile</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:TextRegion id="region0041" orientation="-0.035180997073837" type="caption" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+            <pc:Coords points="227,3552 2329,3552 2329,3581 227,3581"/>
+            <pc:TextLine id="region0041_line0000">
+                <pc:Coords points="227,3552 2329,3552 2329,3581 227,3581"/>
+                <pc:TextEquiv conf="0.6934975887537">
+                    <pc:Unicode>reer , rvroeem........... ANGT PTRRDV vrmamux¬</pc:Unicode>
+                </pc:TextEquiv>
+            </pc:TextLine>
+            <pc:TextEquiv>
+                <pc:Unicode>reer , rvroeem........... ANGT PTRRDV vrmamux¬</pc:Unicode>
+            </pc:TextEquiv>
+        </pc:TextRegion>
+        <pc:ImageRegion id="region0000" orientation="-0.035180997073837">
+            <pc:Coords points="2296,0 2400,0 2400,92 2296,92"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0001" orientation="-0.035180997073837">
+            <pc:Coords points="1465,636 2101,636 2101,660 1465,660"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0003" orientation="-0.035180997073837">
+            <pc:Coords points="0,0 864,0 864,761 0,761"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0005" orientation="-0.035180997073837">
+            <pc:Coords points="237,720 864,720 864,772 237,772"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0030" orientation="-0.035180997073837">
+            <pc:Coords points="1433,2036 1483,2036 1483,2065 1433,2065"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0040" orientation="-0.035180997073837">
+            <pc:Coords points="2390,3358 2400,3358 2400,3376 2390,3376"/>
+        </pc:ImageRegion>
+        <pc:ImageRegion id="region0042" orientation="-0.035180997073837">
+            <pc:Coords points="0,3570 2400,3570 2400,3674 0,3674"/>
+        </pc:ImageRegion>
+        <pc:TableRegion id="region0004" orientation="-0.035180997073837">
+            <pc:Coords points="518,693 2079,693 2079,763 518,763"/>
+            <pc:TextRegion id="region0004_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="518,693 2079,693 2079,763 518,763"/>
+                <pc:TextLine id="region0004_cell0000_line0000">
+                    <pc:Coords points="1488,693 2079,693 2079,718 1488,718"/>
+                    <pc:TextEquiv conf="0.710989498087958">
+                        <pc:Unicode>ulerpepaltent tatretlumepele entuegee. Bujeaaanen jua on teenten put</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0004_cell0000_line0001">
+                    <pc:Coords points="1092,700 2079,700 2079,736 1092,736"/>
+                    <pc:TextEquiv conf="0.56840675901144">
+                        <pc:Unicode>tmmmmaeor. ete umatemt,us tunt tnintnertun eun en tùia earmtaieirnts tur feate</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0004_cell0000_line0002">
+                    <pc:Coords points="518,727 1974,727 1974,763 518,763"/>
+                    <pc:TextEquiv conf="0.726879506152539">
+                        <pc:Unicode>Qu ut ao en t u auunnu: n uon tue.nbenure Clnſebunnen ottben nui auſrmua.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0008" orientation="-0.035180997073837">
+            <pc:Coords points="164,882 2291,882 2291,1036 164,1036"/>
+            <pc:TextRegion id="region0008_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="190,882 2111,882 2111,928 190,928"/>
+                <pc:TextLine id="region0008_cell0000_line0000">
+                    <pc:Coords points="190,882 2111,882 2111,928 190,928"/>
+                    <pc:TextEquiv conf="0.693008528804664">
+                        <pc:Unicode>Dn, en oe u. AeIrana.. A’ Slila Caſman &amp;dea uaor dus élPleren!l Du nus</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0008_cell0001" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="164,904 2291,904 2291,1036 164,1036"/>
+                <pc:TextLine id="region0008_cell0001_line0000">
+                    <pc:Coords points="707,905 2120,905 2120,931 707,931"/>
+                    <pc:TextEquiv conf="0.759484036979888">
+                        <pc:Unicode>Inajor. I7. ebruar. Gtoſhere lR eſten qeten oi bentun bul n qi etire ſet bes ceE ncu.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0008_cell0001_line0001">
+                    <pc:Coords points="164,904 2290,904 2290,967 164,967"/>
+                    <pc:TextEquiv conf="0.622554394885876">
+                        <pc:Unicode>matar le uane. aaell ſall iutlaut ſeu dus ouu aſe l iisie bilil ias e Telilli li lataae</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0008_cell0001_line0002">
+                    <pc:Coords points="175,935 2290,935 2290,996 175,996"/>
+                    <pc:TextEquiv conf="0.464685903107824">
+                        <pc:Unicode>ea geaat, . . l’Eeindl deiplderildite de ’uedfmus aitoe l’ei Biri MarLLNNNV Ierte iurealr ae ide alieudle ia der al lſine</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0008_cell0001_line0003">
+                    <pc:Coords points="628,968 2290,968 2290,1017 628,1017"/>
+                    <pc:TextEquiv conf="0.571689033586335">
+                        <pc:Unicode>inpor ifrs ſir aot Eer oo mſeri,</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0008_cell0001_line0004">
+                    <pc:Coords points="1792,989 2291,989 2291,1036 1792,1036"/>
+                    <pc:TextEquiv conf="0.568092419044977">
+                        <pc:Unicode>tle erudſfin, Ruioit, renuer, ſi oui</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0013" orientation="-0.035180997073837">
+            <pc:Coords points="47,1060 2292,1060 2292,1171 47,1171"/>
+            <pc:TextRegion id="region0013_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="47,1060 2291,1060 2291,1137 47,1137"/>
+                <pc:TextLine id="region0013_cell0000_line0000">
+                    <pc:Coords points="72,1060 2291,1060 2291,1101 72,1101"/>
+                    <pc:TextEquiv conf="0.629478614406475">
+                        <pc:Unicode>uon l uer leet t abral n &amp;s Seitiaun A utrat oa ooi, bas pou loefuleetiet partlen bes Piunbiſomgei vllutetun per ulunig lues lun nudnue Stet trutens Rtau Et rvtt l loeni ate tee een, ſls bleil terelis luinlſs lu iie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0013_cell0000_line0001">
+                    <pc:Coords points="47,1065 2168,1065 2168,1137 47,1137"/>
+                    <pc:TextEquiv conf="0.408167626421251">
+                        <pc:Unicode>cetatptetis e ei e ueu diſoue e aeud is l’ul garmn areas i geirie g ietae nsrmemure l une ſe ae a ut s a a aidi ei</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0013_cell0001" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="47,1100 2292,1100 2292,1171 47,1171"/>
+                <pc:TextLine id="region0013_cell0001_line0000">
+                    <pc:Coords points="69,1100 2292,1100 2292,1155 69,1155"/>
+                    <pc:TextEquiv conf="0.495831928863587">
+                        <pc:Unicode>Sl aa un joul eus da la l va a R ul n ut n u ll qur tue auale?</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0013_cell0001_line0001">
+                    <pc:Coords points="47,1114 2270,1114 2270,1171 47,1171"/>
+                    <pc:TextEquiv conf="0.46426889631777">
+                        <pc:Unicode>ſniil iſtinae deis e lalſ a’d ſiel i i ſ e l’urt d ldil ’in d’imne uour dail l’iſnur a.. lau. l te aitmnui i ſturur lante ueait dit¬</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0022" orientation="-0.035180997073837">
+            <pc:Coords points="48,1260 2292,1260 2292,1541 48,1541"/>
+            <pc:TextRegion id="region0022_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="48,1260 2292,1260 2292,1541 48,1541"/>
+                <pc:TextLine id="region0022_cell0000_line0000">
+                    <pc:Coords points="48,1260 2235,1260 2235,1297 48,1297"/>
+                    <pc:TextEquiv conf="0.64467055130297">
+                        <pc:Unicode>auit lel. omeit bus iſleriiſbe àierrie erdauie, uirbe et l luren léſen us uerſtedntieriſoen ſuiſſen, berneſe qul ben on l Ral horie Ca&amp; guij guedbmut eilil bon ler &amp;ot Ai h Een ) in ſu ouiue ùble in puit ile tuil ioe uerſtiuen.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0001">
+                    <pc:Coords points="48,1261 2292,1261 2292,1330 48,1330"/>
+                    <pc:TextEquiv conf="0.393676568036222">
+                        <pc:Unicode>Peel a au a ie e dbeaierd ſhimiemr ’u ieu ge uiſ i is iſi i i i lme ae l fa daſ a eae aege ar aea i&amp; eie Rdur ma e l iu eaia eue eains leul ae iruvu e loier</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0002">
+                    <pc:Coords points="88,1310 2292,1310 2292,1367 88,1367"/>
+                    <pc:TextEquiv conf="0.499824785283168">
+                        <pc:Unicode>IaE v’anmotnroa dus aut ar luin au qummt urez. . l’luisillu e R aer aenitiniilſritiuir ieſer utunr iu g&amp; iſtiſie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0003">
+                    <pc:Coords points="48,1335 2291,1335 2291,1384 48,1384"/>
+                    <pc:TextEquiv conf="0.593655965337388">
+                        <pc:Unicode>treteiui en, Soenodrlſtt l leſeruiſl luſ ſaillpr iltle neniutlert in ne iſpeeli!.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0004">
+                    <pc:Coords points="48,1346 2290,1346 2290,1413 48,1413"/>
+                    <pc:TextEquiv conf="0.440880204416581">
+                        <pc:Unicode>Paa i eie e peite gipgo neg daibaire l i l l es eſ enoue ui ful au reiler ’as Frauterſeo aeunun rmurar vmr l ie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0005">
+                    <pc:Coords points="48,1375 2291,1375 2291,1448 48,1448"/>
+                    <pc:TextEquiv conf="0.375489066676279">
+                        <pc:Unicode>PEi afig i ia tiuri fe qertndih eleieie eue au fiegi e dſ le e eeaeae er u eil ie iſi e l Re l lEs uaeu uel l uert t te t l ’arus lu erigſt ſi irie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0006">
+                    <pc:Coords points="49,1415 2291,1415 2291,1465 49,1465"/>
+                    <pc:TextEquiv conf="0.624006932973862">
+                        <pc:Unicode>ſaislins et vii ’uis laai iuſl fus u bieun r indu uners on ol fgi ur onn ſutret nonin ei u IId RRt uit Mi Dul Rlin PaVINVIV lun bi ue urſſie on le dli lrl il feſſil iuls lue</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0007">
+                    <pc:Coords points="48,1435 2290,1435 2290,1487 48,1487"/>
+                    <pc:TextEquiv conf="0.508216283130555">
+                        <pc:Unicode>iu uue d iiei aldi deſindi le de der ul ien l huulſl ſtun ſoſule li n luli iſi uulſiſiſt ſonl u ur eli u n d duoui aſl a p e e turiun rriſi</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0008">
+                    <pc:Coords points="48,1456 2290,1456 2290,1526 48,1526"/>
+                    <pc:TextEquiv conf="0.470007111620222">
+                        <pc:Unicode>Pa t i i e ſie ſiſoiuitins diies ſi iſs aimiur ſil ae aldili g e leupua deſmfdeil oumnmatruts neotnue at nmanur t l’liel liredeltaus bleitids be lie l aedeneoirs</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0022_cell0000_line0009">
+                    <pc:Coords points="49,1482 2290,1482 2290,1541 49,1541"/>
+                    <pc:TextEquiv conf="0.511231961024828">
+                        <pc:Unicode>naduintiiat uati nani ueri l ’usmu da’hdiads geuifls, deoumilie dpfimnuil omtraletuie Boteler Dz. PMiluer J. llius piutns litntin atltil auil eisilrlil rtei lons</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0025" orientation="-0.035180997073837">
+            <pc:Coords points="48,1576 2292,1576 2292,1694 48,1694"/>
+            <pc:TextRegion id="region0025_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="48,1576 2292,1576 2292,1694 48,1694"/>
+                <pc:TextLine id="region0025_cell0000_line0000">
+                    <pc:Coords points="59,1576 2292,1576 2292,1612 59,1612"/>
+                    <pc:TextEquiv conf="0.747421526872005">
+                        <pc:Unicode>enonnt rooren our, nod jeuer ful ieriu eer l nen, Mon oſle aiſi aut elne oſiſlioe Mntort von &amp;eiten allleb lu relitontenboile qu erldidlerfee leln lore ll ſſ bl br d rfe ei nlllde uftrat or Sntns</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0025_cell0000_line0001">
+                    <pc:Coords points="48,1578 2290,1578 2290,1644 48,1644"/>
+                    <pc:TextEquiv conf="0.410327987774508">
+                        <pc:Unicode>Jſgaia mus men lea ei ei oi dis ’ig la ſi i g e g l erlſi e le ares, eas l&amp;e</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0025_cell0000_line0002">
+                    <pc:Coords points="48,1610 2291,1610 2291,1672 48,1672"/>
+                    <pc:TextEquiv conf="0.438906324636421">
+                        <pc:Unicode>ius Phiſd dos ailiuma di ir en e pe aei l au lounl ien ſu amat uat a mtea e l’E’i ouasla gu ſin luate pai dſa gin ait l’arlie ia aeil gualtinu de e rler elete ile</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0025_cell0000_line0003">
+                    <pc:Coords points="48,1630 2290,1630 2290,1694 48,1694"/>
+                    <pc:TextEquiv conf="0.363247835483411">
+                        <pc:Unicode>PPEn ididlel i iiiui ii l ar oit mreugegere u ergue eue au ſirſr laiu due l laiſle e i guge l ir ii l eadre</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0028" orientation="-0.035180997073837">
+            <pc:Coords points="49,1898 2291,1898 2291,2025 49,2025"/>
+            <pc:TextRegion id="region0028_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="115,1898 2021,1898 2021,1929 115,1929"/>
+                <pc:TextLine id="region0028_cell0000_line0000">
+                    <pc:Coords points="115,1898 2021,1898 2021,1929 115,1929"/>
+                    <pc:TextEquiv conf="0.725810568235527">
+                        <pc:Unicode>darios eofeu. &amp;lfioreuber l oihnmue E!(npettrunle, bas er aunddiſt vertrelunprveiſe l on l’uſl l’ Rrottte ntauet oû eimhl</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0028_cell0001" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="49,1931 2291,1931 2291,2004 49,2004"/>
+                <pc:TextLine id="region0028_cell0001_line0000">
+                    <pc:Coords points="49,1931 2291,1931 2291,2004 49,2004"/>
+                    <pc:TextEquiv conf="0.471436111462013">
+                        <pc:Unicode>deuie de ie le, oit, uls Paouiiſitur n ce a eſlie lu oen i ul e le de aer qmie lan ls ue l lul us u e ur e ladear ie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0028_cell0001_line0001">
+                    <pc:Coords points="93,1967 2229,1967 2229,1993 93,1993"/>
+                    <pc:TextEquiv conf="0.77801685516297">
+                        <pc:Unicode>: lnlerrtidl: Beſtman, Illverſtittprofeſlor; aiderbou: nr6 AIIrIIAn teAnan rlen nnrellernuvl!ner ’ruttreue, it llarem e pujerer no ber Gteteſter etan bobe, uui ben rtiu bes l luanj</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0028_cell0002" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="49,1967 2291,1967 2291,2025 49,2025"/>
+                <pc:TextLine id="region0028_cell0002_line0000">
+                    <pc:Coords points="49,1967 2291,1967 2291,2025 49,2025"/>
+                    <pc:TextEquiv conf="0.467450521050622">
+                        <pc:Unicode>Pinis liur be dlioegi lilaildl de éeſpri aomroiſ l ene &amp;l E AAl le l u pluls ll le aon tue l’lisiedeaſe due e us lliſre uoae beitgue deterd l uarſidl deiraealt dlle me ’ais d e laluleureig¬</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0031" orientation="-0.035180997073837">
+            <pc:Coords points="45,2358 2293,2358 2293,2569 45,2569"/>
+            <pc:TextRegion id="region0031_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="47,2360 2291,2360 2291,2396 47,2396"/>
+                <pc:TextLine id="region0031_cell0000_line0000">
+                    <pc:Coords points="47,2360 2291,2360 2291,2396 47,2396"/>
+                    <pc:TextEquiv conf="0.738468012122298">
+                        <pc:Unicode>Det frunuſiſoen rnée ellous riper lel ſs in per ben bet O rtrtreebet ten Er aaarlrI.., l ng ber lieiteroerbreitund ber dranbell l ibren l voiſt voui ben qroſen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0001" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="47,2358 2291,2358 2291,2425 47,2425"/>
+                <pc:TextLine id="region0031_cell0001_line0000">
+                    <pc:Coords points="47,2358 2291,2358 2291,2425 47,2425"/>
+                    <pc:TextEquiv conf="0.419245266792951">
+                        <pc:Unicode>Tin dt i dte ſairi e a aei ai aſile e ugs re a’uil e ſpre ’ei ir ioue ie bibi ae ir eſu ie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0002" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="612,2392 2292,2392 2292,2447 612,2447"/>
+                <pc:TextLine id="region0031_cell0002_line0000">
+                    <pc:Coords points="612,2392 2292,2392 2292,2447 612,2447"/>
+                    <pc:TextEquiv conf="0.504688755957848">
+                        <pc:Unicode>a lil de i en l iers jſi le, l liut ie l diuid ll l qu aui</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0003" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="105,2412 2292,2412 2292,2468 105,2468"/>
+                <pc:TextLine id="region0031_cell0003_line0000">
+                    <pc:Coords points="105,2412 2292,2412 2292,2468 105,2468"/>
+                    <pc:TextEquiv conf="0.522943183429736">
+                        <pc:Unicode>u o oert ſr l den gue dulbis fen abiun ilula is l ’uilpriez ain lamie. bie fhuu du dmiesgeot, a eitltldtr uilen</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0004" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="75,2426 2292,2426 2292,2479 75,2479"/>
+                <pc:TextLine id="region0031_cell0004_line0000">
+                    <pc:Coords points="75,2426 2292,2426 2292,2479 75,2479"/>
+                    <pc:TextEquiv conf="0.443724235909173">
+                        <pc:Unicode>Dt ui lull eids ul ble S’slse jer l euotlaudi t fi ii ir lr ui birpetr qouli quog ols l lerdir t mglel les oriſei ul d dunoermuent d es l irut Oi Rumgeſ et eiſ ſirſs, uſl gpſipir. oliais</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0005" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="46,2458 2293,2458 2293,2507 46,2507"/>
+                <pc:TextLine id="region0031_cell0005_line0000">
+                    <pc:Coords points="46,2458 2293,2458 2293,2507 46,2507"/>
+                    <pc:TextEquiv conf="0.531263091672567">
+                        <pc:Unicode>u d e uip ubſiaitli ls oyrugteud iun niiun le fiſfi teriliqſdir, er pritiden Riritroiteis, le l ’alns bilre i’feri duirienid iuifis ver oummn ter l d aitl te rntiuitdtrae aue uei ntoigon e</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0006" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="47,2473 2292,2473 2292,2529 47,2529"/>
+                <pc:TextLine id="region0031_cell0006_line0000">
+                    <pc:Coords points="47,2473 2292,2473 2292,2529 47,2529"/>
+                    <pc:TextEquiv conf="0.475057080596685">
+                        <pc:Unicode>ire u pis ’uilt i le d diſſens ea es l’uru e drire i eis ais ue ueutedens de l’alrieilea r lulr aitur g ian al r ues ar ailde</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0007" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="45,2492 2292,2492 2292,2552 45,2552"/>
+                <pc:TextLine id="region0031_cell0007_line0000">
+                    <pc:Coords points="46,2492 2292,2492 2292,2547 46,2547"/>
+                    <pc:TextEquiv conf="0.438506606221199">
+                        <pc:Unicode>Pneigis a ſe le plius S giliſe ſond la paiſei eus e l puone it aoe au rit didiemiot onrs us Munu l unu to l auhriel le u dimiudemaeg liu dl lu dere re mareilddle</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0031_cell0007_line0001">
+                    <pc:Coords points="45,2518 1369,2518 1369,2552 45,2552"/>
+                    <pc:TextEquiv conf="0.667961660726669">
+                        <pc:Unicode>uenben merhe en uiiugen, bie cbinqun ber )’rooeeſo Dr nerbbrrefer mmtanoenen nb eeſilloleu bos l eleliſot; orounloiori</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+            <pc:TextRegion id="region0031_cell0008" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="1366,2548 1381,2548 1381,2569 1366,2569"/>
+                <pc:TextLine id="region0031_cell0008_line0000">
+                    <pc:Coords points="1366,2548 1381,2548 1381,2569 1366,2569"/>
+                    <pc:TextEquiv conf="0.754846442739169">
+                        <pc:Unicode>rl</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:TableRegion id="region0036" orientation="-0.035180997073837">
+            <pc:Coords points="42,3072 2289,3072 2289,3258 42,3258"/>
+            <pc:TextRegion id="region0036_cell0000" orientation="-0.035180997073837" readingDirection="left-to-right" textLineOrder="top-to-bottom">
+                <pc:Coords points="42,3072 2289,3072 2289,3258 42,3258"/>
+                <pc:TextLine id="region0036_cell0000_line0000">
+                    <pc:Coords points="42,3072 1724,3072 1724,3122 42,3122"/>
+                    <pc:TextEquiv conf="0.565780083993866">
+                        <pc:Unicode>Saeirere leu laie ierſinſd us fir ai fhlomz-llirt lEuer fie Eeiei PliR, ia lil Feſis é ſi us l pus, i elen utrmrituui ? luiliaiſl ſe oun ai</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0036_cell0000_line0001">
+                    <pc:Coords points="43,3094 1725,3094 1725,3145 43,3145"/>
+                    <pc:TextEquiv conf="0.487507929613527">
+                        <pc:Unicode>iueerent ſen ſirltertdluis</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0036_cell0000_line0002">
+                    <pc:Coords points="184,3117 2170,3117 2170,3168 184,3168"/>
+                    <pc:TextEquiv conf="0.656884900557454">
+                        <pc:Unicode>ta tuea runmuaan uauuiaurEsienauut: a n ouonu n r mnten vsius b t euan bur ie oe! uſer ue Sn MltelMupovoe.</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0036_cell0000_line0003">
+                    <pc:Coords points="66,3146 2125,3146 2125,3195 66,3195"/>
+                    <pc:TextEquiv conf="0.587211183463635">
+                        <pc:Unicode>ue t re ut’, ſn aſtenit aur uranlet tu mumelt natler iIte leus mmun uten u autuaz l’augaldus urs ’airuerile uu mau uns s cul aat uns mtrnrtenternte</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0036_cell0000_line0004">
+                    <pc:Coords points="42,3194 2268,3194 2268,3223 42,3223"/>
+                    <pc:TextEquiv conf="0.776577394142353">
+                        <pc:Unicode>inperlum rIDerlentleit tn emem Ainſerilerl )Q u JrerIer pIep Irnrlſe i ſuoen, is freuni eſlegendeno itnb vermilterenb u l,.rdl. Sn. toleren Oeouſr gergen CGlufſibus ouu u!</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+                <pc:TextLine id="region0036_cell0000_line0005">
+                    <pc:Coords points="186,3191 2289,3191 2289,3258 186,3258"/>
+                    <pc:TextEquiv conf="0.446367219708414">
+                        <pc:Unicode>r Pilsaieieg e i iſ l Ee l lir aa l a ldaail ’il ll reillai l aie l e doaſl l ’il de lils lsl e u Eil il EiAle a iſlai uſ ean re e li puten ſaie man aue ies fe l ua e ia aeaur ie e eldes e fefieredgie</pc:Unicode>
+                    </pc:TextEquiv>
+                </pc:TextLine>
+            </pc:TextRegion>
+        </pc:TableRegion>
+        <pc:SeparatorRegion id="region0006">
+            <pc:Coords points="1592,753 1958,753 1958,764 1592,764"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0020">
+            <pc:Coords points="1395,1214 1508,1214 1508,1228 1395,1228"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0021">
+            <pc:Coords points="1454,1461 1643,1461 1643,1480 1454,1480"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0027">
+            <pc:Coords points="693,1905 1079,1905 1079,1924 693,1924"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0033">
+            <pc:Coords points="824,2916 941,2916 941,2932 824,2932"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0034">
+            <pc:Coords points="1825,3092 2209,3092 2209,3111 1825,3111"/>
+        </pc:SeparatorRegion>
+        <pc:SeparatorRegion id="region0035">
+            <pc:Coords points="825,3156 938,3156 938,3170 825,3170"/>
+        </pc:SeparatorRegion>
+    </pc:Page>
+</pc:PcGts>

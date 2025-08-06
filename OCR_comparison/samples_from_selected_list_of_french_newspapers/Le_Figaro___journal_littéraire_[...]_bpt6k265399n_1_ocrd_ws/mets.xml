@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+  <mets:metsHdr CREATEDATE="2025-06-27T12:28:12.042260">
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="CREATOR">
+      <mets:name>ocrd/core v3.5.0</mets:name>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="preprocessing/optimization/binarization">
+      <mets:name>ocrd-olena-binarize v2.0.0</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-IMG</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-BIN</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"level-of-operation": "page", "impl": "sauvola-ms-split", "k": 0.34, "win-size": 0, "dpi": 0}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
+      <mets:name>ocrd-tesserocr-segment v0.20.1</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-BIN</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-SEG</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"dpi": 0, "padding": 4, "shrink_polygons": false, "block_polygons": false, "find_tables": true, "find_staves": false, "sparse_text": false}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
+      <mets:name>ocrd-tesserocr-recognize v0.20.1</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-SEG</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-TESSEROCR</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"model": "fra+Latin+Fraktur", "dpi": 0, "padding": 0, "segmentation_level": "word", "textequiv_level": "word", "overwrite_segments": false, "overwrite_text": true, "shrink_polygons": false, "block_polygons": false, "find_tables": true, "find_staves": false, "sparse_text": false, "raw_lines": false, "char_whitelist": "", "char_blacklist": "", "char_unblacklist": "", "tesseract_parameters": {}, "xpath_parameters": {}, "xpath_model": {}, "auto_model": false, "oem": "DEFAULT"}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="postprocessing/format-conversion">
+      <mets:name>ocrd-fileformat-transform v0.12.0</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-TESSEROCR</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-TXT</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"from-to": "page text", "ext": "", "script-args": ""}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
+      <mets:name>ocrd-calamari-recognize v2.0.1</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-SEG</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-OCR-CALAMARI</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"checkpoint_dir": "historical_french", "device": 0, "voter": "confidence_voter_default_ctc", "textequiv_level": "line", "glyph_conf_cutoff": 0.001}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="postprocessing/format-conversion">
+      <mets:name>ocrd-fileformat-transform v0.12.0</mets:name>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="input-file-grp">OCR-D-OCR-CALAMARI</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="output-file-grp">OCR-D-TXT-CALAMARI</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="parameter">{"from-to": "page text", "ext": "", "script-args": ""}</mets:note>
+      <mets:note xmlns:ocrd="https://ocr-d.de" ocrd:option="page-id"/>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDLOG_0001">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+                </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="OCR-D-IMG">
+      <mets:file ID="OCR-D-IMG_PAGE1" MIMETYPE="image/tiff">
+        <mets:FLocat xlink:href="OCR-D-IMG/Le_Figaro___journal_littéraire_[...]_bpt6k265399n_1.jpeg" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+        <mets:FLocat xlink:href="OCR-D-IMG/Le_Figaro___journal_littéraire_[...]_bpt6k265399n_1.jpeg" LOCTYPE="URL"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-BIN">
+      <mets:file ID="OCR-D-BIN_PAGE1_.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xlink:href="OCR-D-BIN/OCR-D-BIN_PAGE1_.IMG-BIN.png" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="OCR-D-BIN_PAGE1" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xlink:href="OCR-D-BIN/OCR-D-BIN_PAGE1.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-SEG">
+      <mets:file ID="OCR-D-SEG_PAGE1_.IMG-BIN" MIMETYPE="image/png">
+        <mets:FLocat xlink:href="OCR-D-SEG/OCR-D-SEG_PAGE1_.IMG-BIN.png" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="OCR-D-SEG_PAGE1" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xlink:href="OCR-D-SEG/OCR-D-SEG_PAGE1.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-OCR-TESSEROCR">
+      <mets:file ID="OCR-D-OCR-TESSEROCR_PAGE1" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xlink:href="OCR-D-OCR-TESSEROCR/OCR-D-OCR-TESSEROCR_PAGE1.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-TXT">
+      <mets:file ID="OCR-D-TXT_PAGE1" MIMETYPE="text/plain">
+        <mets:FLocat xlink:href="OCR-D-TXT/OCR-D-TXT_PAGE1.txt" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-OCR-CALAMARI">
+      <mets:file ID="OCR-D-OCR-CALAMARI_PAGE1" MIMETYPE="application/vnd.prima.page+xml">
+        <mets:FLocat xlink:href="OCR-D-OCR-CALAMARI/OCR-D-OCR-CALAMARI_PAGE1.xml" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-TXT-CALAMARI">
+      <mets:file ID="OCR-D-TXT-CALAMARI_PAGE1" MIMETYPE="text/plain">
+        <mets:FLocat xlink:href="OCR-D-TXT-CALAMARI/OCR-D-TXT-CALAMARI_PAGE1.txt" LOCTYPE="OTHER" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div TYPE="physSequence">
+      <mets:div TYPE="page" ID="PAGE1">
+        <mets:fptr FILEID="OCR-D-IMG_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-BIN_PAGE1_.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-BIN_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-SEG_PAGE1_.IMG-BIN"/>
+        <mets:fptr FILEID="OCR-D-SEG_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-OCR-TESSEROCR_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-TXT_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-OCR-CALAMARI_PAGE1"/>
+        <mets:fptr FILEID="OCR-D-TXT-CALAMARI_PAGE1"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
