@@ -2,9 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
-gallica_data/
-OCR_comparison/ocr-d/
-OCR_comparison/ocrd_all/
+french_newspapers_analysis/gallica_data/
+OCR_comparison_french_and_german/ocr-d/
+OCR_comparison_french_and_german/ocrd_all/
 # C extensions
 *.so
 
