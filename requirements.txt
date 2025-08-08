@@ -1,0 +1,14 @@
+pandas
+numpy
+tqdm
+nltk
+pillow
+requests
+lxml
+scikit-image
+matplotlib
+seaborn
+torch            # installs CPU PyTorch by default; specify +cuXX if needed
+transformers
+kraken
+pyenchant

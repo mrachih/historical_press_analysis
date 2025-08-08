@@ -1,0 +1,26 @@
+name: historical-press
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  # core
+  - python=3.10
+  - pandas
+  - numpy
+  - tqdm
+  - nltk
+  - pillow            # provides PIL.Image
+  - requests
+  - lxml
+  - scikit-image      # provides skimage.*
+  - matplotlib
+  - seaborn
+  # PyTorch
+  - pytorch::pytorch
+  # optional CLI helpers
+  - pip
+  - pip:
+      - transformers
+      - kraken          # OCR engine used in the notebooks
+      - pyenchant       # spell-checking
+      - gallipy         # Gallica API wrapper
