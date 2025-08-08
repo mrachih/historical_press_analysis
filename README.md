@@ -4,6 +4,7 @@ Words are powerful and shifts in discourse are politically relevant. We see this
 
 ## Below is a brief guide to the key folders:
 
+```bash
 historical_press_analysis/          # root of the project
 ├── french_newspapers_analysis/
 │   ├── context_analysis/                 # csv file per newspaper contains words count
@@ -17,7 +18,7 @@ historical_press_analysis/          # root of the project
     ├── samples_from_selected_list_of_french_newspapers/ # manually verified French snippets
     ├── OCR_comparison_french.ipynb           # WER/CER analysis – French set
     └── OCR_comparison_german.ipynb           # WER/CER analysis – German set
-
+```
 ## Installation
 
 Use **one** of the methods below.
